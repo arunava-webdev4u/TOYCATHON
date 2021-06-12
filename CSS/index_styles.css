@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6e3e3;
+    text-align: center;
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Nova Round', cursive;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3.5em;
+    margin: 0.5em;
+}
+
+.div-btn{
+    /* border: solid 2px; */
+    border-radius: 7px;
+}
+
+#start-btn{
+    display: inline-block;
+    width: 30%;
+    padding: 0.25em;
+    top: 50vh;
+    left: 35%;
+    position: absolute;
+    font-size: 3em;
+    color: #e6e3e3;
+    background-color: rgb(0, 60, 255);
+}
+#start-btn:hover{
+    box-shadow: 0 0.7em 1.2em 0em rgba(0, 60, 255, 0.75);
+    transition: 0.2s;
+    transform: scale(1.05);
+}
