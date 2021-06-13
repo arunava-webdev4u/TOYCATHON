@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS/index_styles.css">
+    <link rel="stylesheet" href="CSS/start_background_styles.css">
 
     <title>TOYKATHON - Home Page</title>
 </head>
@@ -22,13 +23,25 @@
 <body>
     <div class="background-styles">
         <header>
-            <h1>Game Name</h1>
+            <div id="header_div">
+                <h1>This is India</h1>
+            </div>
         </header>
         <main>
-            <a href="/game1.html"><div id="start-btn" class="div-btn"><i class="fas fa-play"></i> Start Game</div></a>
+            <a href="/game1.html"><div id="start-btn"><i class="fas fa-play"></i> Start Game</div></a>
         </main>
     </div>
-
+    <!--CSS animated background-->
+    <section>
+        <div id="waveup-1" class="waveup"></div>
+        <div id="waveup-2" class="waveup"></div>
+        <div id="waveup-3" class="waveup"></div>
+    
+        <div id="wavedown-1" class="wavedown"></div>
+        <div id="wavedown-2" class="wavedown"></div>
+        <div id="wavedown-3" class="wavedown"></div>
+    </section>
+    <!--CSS animated background-->
     <script src="JS/index_scripts.js"></script>
 </body>
 </html>
