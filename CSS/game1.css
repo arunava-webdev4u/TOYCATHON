@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6e3e3;
+    text-align: center;
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Nova Round', cursive;
+    text-decoration: none;
+    text-decoration: none;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 1%;
+}
+/* ---------------------header styles------------------------- */
+#header, #body{
+    /* border: red solid 5px; */
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    margin: 2% auto;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(46, 45, 45, 0.35);
+}
+
+#progress{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+#left-box{
+    margin-left: 2%;
+}
+#score-box{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2%;
+}
+#score{
+    font-size: 2.2rem;
+    display: block;
+}
+
+#progressbar{
+    width: 11rem;
+    height: 1.35rem;
+    border: steelblue solid 2px;
+    margin: 5% auto;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#progressbarFull{
+    background-color: steelblue;
+    width: 0%;
+    height: 100%;
+    border-radius: 50px;
+    transition: width 700ms;
+}
+
+/* -----------------------body styles--------------------------- */
+#body{
+    font-size: 2.2rem;
+}
+ul{
+    font-size: 1.5rem;
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+}
+
+li{
+    border-radius: 50px;
+    background-color: steelblue;
+    margin: 2%;
+    padding: 1.5%;
+    transition: transform 300ms;
+    color: white;
+}
+li:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#next-btn{
+    font-size: 1.8rem;
+    width: 20%;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border: solid 2px transparent;
+    color: white;
+    background-color: teal;
+    transition: transform 150ms;
+}
+#next-btn:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    border: solid 2px teal;
+    color: teal;
+    background-color: white;
+}
+
+
+/* --------------------------------------- */
+.clckdone{
+    color: rgb(193, 204, 212);
+}
+.noDec{
+    text-decoration: none;
+}

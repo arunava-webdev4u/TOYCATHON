@@ -1,0 +1,9 @@
+{
+	id = 1
+	question: 'what is 2+2?',
+	choice1: '2',
+	choice2: '4',
+	choice3: '15',
+	choice4: '20',
+	answer: '4',
+}

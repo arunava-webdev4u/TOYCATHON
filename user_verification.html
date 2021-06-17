@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +13,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../CSS/game1.css">
-
-    <title>TOYKATHON - Game1 Page</title>
+    <link rel="stylesheet" type="text/css" href="CSS/user_verification.css">
+    <title>Login/SignUp</title>
 </head>
+<body>
+    <div id="container">
+        <h1>Welcome</h1>
+        <div class="card">
+            <h2>Please Login</h2>
+            <div class="input-box">
+                <p>Username: </p>
+                <input type="text" id="user" placeholder="Please enter your username">
+            </div>
+            <div class="input-box">
+                <p>Password: </p>
+                <input type="password" id="pass" placeholder="Enter your password">
+            </div>
+            <a href="#" id="login"><div class="btn">Login</div></a>
+            <p class="ext">or</p>
+            <p class="ext"><a href="/signup_user_verification.html">SignUp</a> if you are new</p>
+        </div>
+    </div>
+
+    <script src="JS/user_verification.js"></script>
+</body>
+</html>
