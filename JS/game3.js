@@ -167,7 +167,7 @@ for (let i = 0; i <= 3; i++) {
         }
 
         if (CLICKED == true) {
-            setTimeout(lateCall, 250);
+            setTimeout(lateCall, 500);
         }
     });
 }

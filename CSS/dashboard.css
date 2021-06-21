@@ -14,6 +14,11 @@ body{
  font-size: 3rem;
  margin-top: 2%;
 }
+#info{
+    font-size: 1.5rem;
+    color: slategrey;
+    margin-top: 1.5%;
+}
 .game-cards{
     text-decoration: none;
     color: steelblue;

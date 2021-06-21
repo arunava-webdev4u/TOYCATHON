@@ -35,7 +35,7 @@ function signup()
     // console.log(user_array)
 
     localStorage.setItem(username, JSON.stringify(user_array));
-    alert("Successfully Signed in");
+    alert("Successfully Signed Up");
 
     btn.setAttribute("href", "/TOYCATHON/index.html");
 }
