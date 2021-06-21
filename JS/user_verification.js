@@ -31,5 +31,5 @@ function login()
     // loggedInUserName = tmp[0];
     sessionStorage.setItem('loggedInUserName', username);
 
-    btn.setAttribute("href", "/dashboard.html");
+    btn.setAttribute("href", "/TOYCATHON/dashboard.html");
 }
