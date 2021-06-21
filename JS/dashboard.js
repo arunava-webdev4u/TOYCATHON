@@ -7,6 +7,7 @@ let gameScores = getData;
 let cards = document.querySelectorAll(".game-cards-box");
 let cardsLink = document.querySelectorAll(".game-cards");
 let status = document.querySelectorAll(".status");
+let winner = document.querySelector("article");
 
 greet();
 setupCards();
@@ -49,5 +50,8 @@ function setStatus()
         else
             status[i].innerText = "Completed";
     }
+
+    if (gameScores[4] > 1)
+        winner.classList.add('hide-me');
 
 }

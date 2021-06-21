@@ -9,7 +9,7 @@ let questions = [
         id: 2,
         question: "In Hindu mythology and the Vedic era, this animal was a symbol of power. It was often depicted as the animal-vehicle of the various forms of Goddess Durga. India is home to 80 percent of this animal in the world. Name the national animal of India?",
         choice: ['The Tiger', 'The Giraffe', 'The Elephant', 'The Lion'],
-        answer: 'The Lion',
+        answer: 'The Tiger',
     },
     {
         id: 3,
@@ -19,7 +19,7 @@ let questions = [
     },
     {
         id: 4,
-        question: "Currency is a medium of exchange for goods and services. In short, it is the money in the form of paper or coins, usually issued by a government and generally accepted at its face value as a method of payment. This is the national currency of India?",
+        question: "I am a symbol of grace, joy, beauty and love. I am a large, majestic, colorful, swan-sized bird with a fan-shaped crest of feathers on its head, a white patch under the eye and a long-slender neck. My significance is attached to cultures of India, Far East, Ancient Persia, Greek and Christian. In Hinduism, I am the image of the god of thunder, rains and war.",
         choice: ['The sparrow', 'The peacock', 'The pigeon', 'The bulbul'],
         answer: 'The peacock',
     },

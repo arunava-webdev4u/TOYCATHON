@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e6e3e3;
+    text-align: center;
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Nova Round', cursive;
+    padding: 5%;
+    background: linear-gradient(to bottom right, rgba(255, 166, 0, 0.8), white, rgba(0, 128, 0, 0.8));
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.7rem;
+    margin: 2% auto;
+}
+div{
+    font-size: 12rem;
+    color: rgb(0, 140, 255);
+    margin-top: 4%;
+}

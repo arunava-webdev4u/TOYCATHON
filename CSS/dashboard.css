@@ -37,7 +37,10 @@ h2{
     text-decoration: none;
     font-size: 2rem;
 }
-
+h3{
+    margin-bottom: 2%;
+    color: slategrey;
+}
 .imgbg{
     /* border: solid rgba(110, 110, 110, 0.712) 5px; */
     box-shadow: inset 10px 10px 45px rgba(0, 0, 0, 0.35);
@@ -106,12 +109,49 @@ h2{
     margin-top: 1.5%;
 }
 
-
+article{
+    width: 40%;
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    color: rgb(38, 122, 190);
+    cursor: none;
+    visibility: hidden;
+    /* background: linear-gradient(rgb(244, 196, 48), white, green); */
+}
+h4{
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+    color: rgb(255, 74, 42);
+}
+#win{
+    text-decoration: none;
+}
+#winner{
+    font-size: 2.5rem;
+    /* width: 70%; */
+    margin: 2% auto;
+    padding: 0.5%;
+    border: solid transparent 3px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    transition: 300ms;
+}
+#winner:hover{
+    border: solid green 3px;
+    background-color: white;
+    color: green;
+}
 
 
 
 
 /* ----------------------------toggled by js------------------------ */
+.hide-me{
+    visibility: visible;
+}
 .disabled{
     opacity: 0.4;
 }
