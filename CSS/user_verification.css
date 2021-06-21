@@ -71,3 +71,20 @@ input:focus{
 .ext{
     text-align: center;
 }
+
+/* ================================================================== */
+@media screen and (max-width: 1280px){
+    .card{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 768px){
+    .card{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 768px){
+    .card{
+        width: 95%;
+    }
+}

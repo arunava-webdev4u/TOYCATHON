@@ -125,3 +125,17 @@ section{
     width: 400px;
     border: solid red 10px;
 }
+
+/* ================================================================== */
+@media screen and (max-width: 1280px){
+    #start-btn{
+        width: 50%;
+        left: 25%;
+    }
+}
+@media screen and (max-width: 768px){
+    #start-btn{
+        width: 66%;
+        left: 17%;
+    }
+}
