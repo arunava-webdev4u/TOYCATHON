@@ -34,6 +34,12 @@ let questions = [
         question: "The Indian National Flag is a tri-colored flag with an Ashok Chakra in the centre. You will find these three colours in the flag if you start from the top to the bottom:",
         choice: ['white yellow green', 'white green saffron', 'saffron white green', 'green white saffron'],
         answer: 'saffron white green',
+    },
+    {
+        id: 7,
+        question: "I am native to India and thus truly Indian. Since time immemorial, I have been cultivated in India. In ancient times as well, the deliciousness of this fruit has been defined by many renowned poets. I am the national fruit of India:",
+        choice: ['apple', 'guava', 'mango', 'orange'],
+        answer: 'mango',
     }
 ];
 //-----------------------------------------------------------------------------------------// 
@@ -77,34 +83,30 @@ for (let i = 0; i <= 3; i++) {
         let correctAns = questions[QUESTION_COUNTER - 1].answer.toString();
         let max = total(SCORE);
 
-        if (ans === correctAns)
-        {
-            if (SCORE.length < numberOfQuestions)
-            {
+        if (ans === correctAns) {
+            if (SCORE.length < numberOfQuestions) {
                 SCORE.push(10);
                 max = total(SCORE);
                 currentScore.innerText = max;
 
-                if (max === numberOfQuestions*10)
+                if (max === numberOfQuestions * 10)
                     CURRENT_SCORE = max;
 
-                if (CURRENT_SCORE == max)
-                {
+                if (CURRENT_SCORE == max) {
                     let newData = JSON.parse(localStorage.getItem(username));
-                    newData[1] = CURRENT_SCORE;        //////--------------- for game 1
-                    newData[2] = 1;
+                    newData[5] = CURRENT_SCORE;        //////--------------- for game 5
+                    // newData[6] = 1;
                     localStorage.setItem(username, JSON.stringify(newData));
                 }
             }
 
-            for (let i = 0; i <= 3; i++){
+            for (let i = 0; i <= 3; i++) {
                 options[i].style.backgroundColor = "#9ea2a6";
             }
             el.path[0].style.backgroundColor = "green";
         }
-        else
-        {
-            if (SCORE.length < numberOfQuestions){
+        else {
+            if (SCORE.length < numberOfQuestions) {
                 SCORE.push(0);
                 max = total(SCORE);
                 currentScore.innerText = max;
@@ -116,8 +118,7 @@ for (let i = 0; i <= 3; i++) {
             el.path[0].style.backgroundColor = "red";
         }
 
-        if(CLICKED == true)
-        {
+        if (CLICKED == true) {
             setTimeout(lateCall, 250);
         }
     });
@@ -138,36 +139,30 @@ function next() {
     setQuestions();
 }
 
-function setHeader()
-{
+function setHeader() {
     questionCount.innerText = QUESTION_COUNTER;
     progress.style.width = `${(QUESTION_COUNTER / numberOfQuestions) * 100}%`;
 }
 
-function setQuestions()
-{
-    question.innerText = questions[QUESTION_COUNTER-1].question;
+function setQuestions() {
+    question.innerText = questions[QUESTION_COUNTER - 1].question;
     for (let op = 0; op <= 3; op++)
         options[op].innerText = `${questions[QUESTION_COUNTER - 1].choice[op]}`;
 }
 
-function resetColors()
-{
+function resetColors() {
     for (let i = 0; i <= 3; i++) {
         options[i].style.backgroundColor = "steelblue";
     }
 }
 
-function lateCall()
-{
+function lateCall() {
     resetColors();
     next();
 }
-function total(arr)
-{
+function total(arr) {
     let t = 0;
-    for (let j = 0; j < arr.length; j++)
-    {
+    for (let j = 0; j < arr.length; j++) {
         t += arr[j];
     }
     return t;

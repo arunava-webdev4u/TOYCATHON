@@ -1,9 +1,91 @@
 {
-	id = 1
-	question: 'what is 2+2?',
-	choice1: '2',
-	choice2: '4',
-	choice3: '15',
-	choice4: '20',
-	answer: '4',
+	id: 1,
+	question: "A ‘capital’ is a city where a region's government is located. This is where government buildings are and where government leaders work. At the county level, capitals are usually called ‘county seats’. Which city among the following is the capital of India?",
+	choice: ['Mumbai', 'Delhi', 'Bengaluru', 'Kolkata'],
+	answer: 'Delhi',
+},
+{
+	id: 2,
+	question: "In Hindu mythology and the Vedic era, this animal was a symbol of power. It was often depicted as the animal-vehicle of the various forms of Goddess Durga. India is home to 80 percent of this animal in the world. Name the national animal of India?",
+	choice: ['The Tiger', 'The Giraffe', 'The Elephant', 'The Lion'],
+	answer: 'The Lion',
+},
+{
+	id: 3,
+	question: "Currency is a medium of exchange for goods and services. In short, it is the money in the form of paper or coins, usually issued by a government and generally accepted at its face value as a method of payment. This is the national currency of India:?",
+	choice: ['Yen', 'Dollar', 'Pound', 'Rupee'],
+	answer: 'Rupee',
+},
+{
+	id: 4,
+	question: "Currency is a medium of exchange for goods and services. In short, it is the money in the form of paper or coins, usually issued by a government and generally accepted at its face value as a method of payment. This is the national currency of India:?",
+	choice: ['Yen', 'Dollar', 'Pound', 'Rupee'],
+	answer: 'Rupee',
+},
+{
+	id: 5,
+	question: "Gitanjali, written by Rabindranath Tagore is a collection of ",
+	choice: ['101 poems', '120 poems', '157 poems', '184 poems'],
+	answer: 'The peacock',
+},
+{
+	id: 6,
+	question: "The Indian National Flag is a tri-colored flag with an Ashok Chakra in the centre. You will find these three colours in the flag if you start from the top to the bottom:",
+	choice: ['white yellow green', 'white green saffron', 'saffron white green', 'green white saffron'],
+	answer: 'saffron white green',
 }
+{
+	id: 7,
+	question: "I am native to India and thus truly Indian. Since time immemorial, I have been cultivated in India. In ancient times as well, the deliciousness of this fruit has been defined by many renowned poets. I am the national fruit of India:",
+	choice: ['apple', 'guava', 'mango', 'orange'],
+	answer: 'mango',
+}
+
+5)This flower holds a very significant position in Indian mythology. It is the flower of goddess Laxmi and symbolises wealth, prosperity, and fertility. It remains untouched from impurity and symbolises purity, achievement, long life and good fate. 
+This is the national flower of India: a) lotus b)sunflower c)rose d)jasmine
+
+
+
+8)Bounded by the Indian Ocean on the south, the Arabian Sea  on the southwest, and the Bay Of Bengal  on the southeast, India's total area is: (A) 3.7 Million sq. km(B) 2.3 Million sq. km(C) 4.0 Million sq.km(D) 3.3 Million sq. km
+
+
+10)I represent eternal life, because of my ever-expanding branches. The country’s unity is symbolised by my huge structure and deep roots. I have immense medicinal properties and is associated with longevity. I give shelter to many different kinds of animals and birds, which represent India and its people from different races, religions and castes. 
+I am the national tree of India: a)banyan b)peepal c)neem d)tulsi
+
+
+11)The Green Revolution, spreading over the period from 1967/68 to 1977/78, changed India’s status from a food-deficient country to one of the world's leading agricultural nations. Who is known as the father of Indian Green Revolution (A) V Kurien (B) C Subramanian (C) MS Swaminathan (D) None of the above
+ 
+12)The Indian Standard Time(IST) refers to the local time of which city (A)Banaras (B) Delhi (C) Allahabad (D) Kolkata
+
+13)The Ashoka Chakra is a depiction of the Dharma Chakra, a wheel represented with ____ spokes in buddhism. It is so called because it appears on a number of edicts of Ashoka, The most visible use of the Ashoka Chakra today is at the centre of the of the national flag (adopted on 24 July 1947), where it is rendered in a navy blue colour on a white background, replacing the symbol of chakra(spinning wheel) of the pre-independence versions of the flag. Fill in the blanks:
+(A) 18
+(B) 24
+(C) 26
+(D) 12
+
+14)A Census is an official survey of the population of a country that is carried out in order to find out how many people live there and to obtain details of such things as people's ages and jobs.Which day is also known as Indian Census Day?
+(A) 9th February
+(B) 14th April
+(C) 29th August
+(D) 27th September
+
+
+
+
+
+
+
+
+
+15)He discovered the sea route to India during the year 1497 – 1499. On 20th May, 1498, two years after he set his sail from Lisbon, Portugal, he arrived on the Western sea coast of India at Kozhikode (Calicut), Kerala. This was the first time when a European had arrived in India via the sea. Hence, he is credited with the discovery of the sea route to India. Sailing down the western coast of Africa and rounding the Cape of Good Hope, his expedition had numerous halts in Africa before reaching the trading post of Calicut. 
+Who is he?
+a)Christopher Columbus
+b)Vasco da Gama
+c)Ferdinand Magellan
+d)Marco Polo
+
+16)The Government of India enacted Wild Life (Protection) Act 1972 with the objective of
+(A) Effectively protecting the protected wildlife of this country and to control smuggling and to Illegalize trade in wildlife and its derivatives
+(B) Effectively protecting the wildlife to move from one place to another into inhabited places
+(C) Effectively protecting the wildlife of this country and to control poaching, smuggling and illegal trade in wildlife and its derivatives
+(D) None of the above
