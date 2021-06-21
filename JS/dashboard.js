@@ -31,7 +31,7 @@ function setupCards()
         else
         {
             cards[i].addEventListener('click', function () {
-                cardsLink[i].setAttribute("href", `/game${i+1}.html`);
+                cardsLink[i].setAttribute("href", `/TOYCATHON/game${i+1}.html`);
             });
         }
     }
