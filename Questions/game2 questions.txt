@@ -1,0 +1,84 @@
+LEVEL 2:
+    {
+        id: 1,
+        question: "He discovered the sea route to India during the year 1497 – 1499. On 20th May, 1498, two years after he set his sail from Lisbon, Portugal, he arrived on the Western sea coast of India at Kozhikode (Calicut), Kerala. This was the first time when a European had arrived in India via the sea. Hence, he is credited with the discovery of the sea route to India. Sailing down the western coast of Africa and rounding the Cape of Good Hope, his expedition had numerous halts in Africa before reaching the trading post of Calicut. Who is he?",
+        choice: ['Christopher Columbus', 'Vasco da Gama', 'Ferdinand Magellan', 'Marco Polo'],
+        answer: 'Vasco da Gama',
+    },
+    {
+        id: 2,
+        question: "On 13 May 1998, two additional fission devices were detonated, and the Indian government led by Prime Minister Atal Bihari Vajpayee shortly convened a press conference to declare India as a full-fledged nuclear state. What was the codename of the first nuclear tests conducted by India on 18 May 1974, in Pokhran, Rajasthan ?",
+        choice: ['Operation Vijay', 'Operation Shakti', 'Smiling Buddha', 'Operation Ashwamedh'],
+        answer: 'Smiling Buddha',
+    },
+    {
+        id: 3,
+        question: "India is the most successful team in Field Hockey at the Olympics, with 11 medals in total, including 8 gold medals. The golden era of Indian hockey ended with a gold medal at the 1980 Moscow Olympics. India won its first Olympic hockey gold in?",
+        choice: ['1930', '1928', '1932', '1927'],
+        answer: '1928',
+    },
+    {
+        id: 4,
+        question: "In today’s time, when success is measured by how much you excel in a particular field, it becomes important for students to choose the right university; as it can help them in exploring their interest as well as grab opportunities, right from their college days. Name the first University established in India ",
+        choice: ['University of Calcutta', 'Delhi University', 'Madras University', 'Banaras Hindu University'],
+        answer: 'University of Calcutta',
+    },
+    {
+        id: 5,
+        question: "The first India national elections under the Constitution held in the year?",
+        choice: ['1948', '1950', '1952', '1955'],
+        answer: '1952',
+    },
+    {
+        id: 6,
+        question: "One of the oldest Indo-European languages for which substantial documentation exists, Sanskrit is the primary sacred language of Hinduism, and has been used as a philosophical language in the religions of Hinduism, Buddhism, and Jainism. Sanskrit is the official language of which state among the following?",
+        choice: ['Bihar', 'Uttar Pradesh', 'Uttarakhand', 'Madhya Pradesh'],
+        answer: 'Uttarakhand',
+    },
+    {
+        id: 7,
+        question: "India became a member of the United Nations in which year?",
+        choice: ['1944', '1945', '1947', '1952'],
+        answer: '1945',
+    },
+    {
+        id: 8,
+        question: "An immense mausoleum of white marble, built in Agra between 1631 and 1648, the Taj Mahal is the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage. It is located on the right bank of the Yamuna River in a vast Mughal garden that encompasses nearly 17 hectares, in the Agra District in Uttar Pradesh. The Taj Mahal was built by which Mughal emperor?",
+        choice: ['Shah Jahan', 'Akbar', 'Babur', 'Jahangir'],
+        answer: 'Shah Jahan',
+    },
+    {
+        id: 9,
+        question: "It was launched on April 19, 1975, from Kapustin Yar, a Russian rocket launch and development site using a Kosmos-3M launch vehicle. It was built by the Indian Space Research Organisation (ISRO).  India made history when it launched its first artificial satellite, thus making her entry into the world of satellite technology. Which is India's first artificial satellite?",
+        choice: ['INSAT', 'Aryabhata', 'Bhaskara', 'Rohini'],
+        answer: 'Aryabhata',
+    },
+    {
+        id: 10,
+        question: "The symbol π (pronounced paɪ in English) is the 16th letter of the Greek alphabet and is used in mathematics to stand for a real number of special significance. The value of "pi" was first calculated by the Indian mathematician ",
+        choice: ['Varahamihira', 'Aryabhata', 'Panini', 'Budhayana'],
+        answer: 'Budhayana',
+    },
+
+
+10)The Reserve Bank of India (RBI) is the central bank of India whose primary function is to manage and govern the financial system of the country. The central bank regulates the issue and supply of the Indian rupee. It also looks after the central government’s money. In which year the Reserve Bank of India was nationalised?
+(A) 1947
+(B) 1948
+(C) 1949
+(D) 1952
+
+11)Her new name was Teresa. In India she received a second call from God: to help the poor while living among them. She founded a new sisterhood, Missionaries of Charity. Mother Teresa and her helpers built homes for orphans, nursing homes for lepers and hospices for the terminally ill in Calcutta. Mother Teresa received Nobel Peace Prize in the year
+(A) 1979
+(B) 1980
+(C) 1982
+(D) 1985
+
+12)India became a member of the United Nations in which year?
+(A) 1944
+(B) 1945
+(C) 1947
+(D) 1952
+
+
+
+

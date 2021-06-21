@@ -1,0 +1,6 @@
+    {
+        id: 4,
+        question: "Who is the first Indian woman to climb Mt. Everest?",
+        choice: ['Premlata Agarwal', 'Arunima Sinha', 'Bachendri Pal', 'Krishna Patil'],
+        answer: 'Bachendri Pal',
+    },

@@ -34,6 +34,30 @@ let questions = [
         question: "The Indian National Flag is a tri-colored flag with an Ashok Chakra in the centre. You will find these three colours in the flag if you start from the top to the bottom:",
         choice: ['white yellow green', 'white green saffron', 'saffron white green', 'green white saffron'],
         answer: 'saffron white green',
+    },
+    {
+        id: 7,
+        question: "I am native to India and thus truly Indian. Since time immemorial, I have been cultivated in India. In ancient times as well, the deliciousness of this fruit has been defined by many renowned poets. I am the national fruit of India:",
+        choice: ['apple', 'guava', 'mango', 'orange'],
+        answer: 'mango',
+    },
+    {
+        id: 8,
+        question: "I represent eternal life, because of my ever-expanding branches. The country’s unity is symbolised by my huge structure and deep roots. I have immense medicinal properties and is associated with longevity. I give shelter to many different kinds of animals and birds, which represent India and its people from different races, religions and castes. I am the national tree of India:",
+        choice: ['banyan', 'peepal', 'neem', 'tulsi'],
+	    answer: 'banyan',
+},
+    {
+        id: 9,
+        question: "This flower holds a very significant position in Indian mythology. It is the flower of goddess Laxmi and symbolises wealth, prosperity, and fertility. It remains untouched from impurity and symbolises purity, achievement, long life and good fate. This is the national flower of India: ",
+        choice: ['lotus', 'sunflower', 'rose', 'jasmine'],
+        answer: 'lotus',
+    },
+    {
+        id: 10,
+        question: "The Indian Standard Time(IST) refers to the local time of which city: ",
+        choice: ['Banaras', 'Delhi', 'Allahabad', 'Kolkata'],
+        answer: 'Allahabad',
     }
 ];
 //-----------------------------------------------------------------------------------------// 
