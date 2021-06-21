@@ -136,6 +136,6 @@ li:hover{
 }
 @media screen and (max-width: 768px){
     #header, #body{
-        width: 90%;
+        width: 95%;
     }
 }
