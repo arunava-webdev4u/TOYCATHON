@@ -1,45 +1,111 @@
 let questions = [
     {
         id: 1,
-        question: "A ‘capital’ is a city where a region's government is located.This is where government buildings are and where government leaders work.At the county level, capitals are usually called ‘county seats’. Which city among the following is the capital of India?",
-        choice: ['Mumbai', 'Delhi', 'Bengaluru', 'Kolkata'],
-        answer: 'Delhi',
+        question: "Officially, Indian Republic Day celebration continues for a duration of",
+        choice: ['One day', 'Two day', 'Three day', 'Four day'],
+        answer: 'Three day',
     },
     {
         id: 2,
-        question: "In Hindu mythology and the Vedic era, this animal was a symbol of power. It was often depicted as the animal-vehicle of the various forms of Goddess Durga. India is home to 80 percent of this animal in the world. Name the national animal of India?",
-        choice: ['The Tiger', 'The Giraffe', 'The Elephant', 'The Lion'],
-        answer: 'The Lion',
+        question: "National Youth day is celebrated in the memory of",
+        choice: ['Jawaharlal Nehru', 'Subhash Chandra Bose', 'Swami Vivekananda', 'None of the above'],
+        answer: 'Swami Vivekananda',
     },
     {
         id: 3,
-        question: "Currency is a medium of exchange for goods and services. In short, it is the money in the form of paper or coins, usually issued by a government and generally accepted at its face value as a method of payment. This is the national currency of India?",
-        choice: ['Yen', 'Dollar', 'Pound', 'Rupee'],
-        answer: 'Rupee',
+        question: "Which one is the longest National Highway of India",
+        choice: ['NH 5', 'NH 7', 'NH 8', 'NH 10'],
+        answer: 'NH 7',
     },
     {
         id: 4,
-        question: "Currency is a medium of exchange for goods and services. In short, it is the money in the form of paper or coins, usually issued by a government and generally accepted at its face value as a method of payment. This is the national currency of India?",
-        choice: ['The sparrow', 'The peacock', 'The pigeon', 'The bulbul'],
-        answer: 'The peacock',
+        question: "Reading newspapers is a good habit and it is already part of modern life. This habit will widen your outlook and will enrich your knowledge. Reading the newspaper makes you well informed. The first Indian newspaper to offer an online edition on internet: ",
+        choice: ['Times of India', 'Hindustan Times', 'Anandabazar Patrika', 'The Hindu'],
+        answer: 'The Hindu',
     },
     {
         id: 5,
-        question: "Gitanjali, written by Rabindranath Tagore is a collection of ",
-        choice: ['101 poems', '120 poems', '157 poems', '184 poems'],
-        answer: '157 poems',
+        question: "On which spacecraft did Rakesh Sharma make his historic trip to Space?",
+        choice: ['Salyut 7', 'Soyuz-T', 'Apollo 11', 'Progress 1'],
+        answer: 'Soyuz-T',
     },
     {
         id: 6,
-        question: "The Indian National Flag is a tri-colored flag with an Ashok Chakra in the centre. You will find these three colours in the flag if you start from the top to the bottom:",
-        choice: ['white yellow green', 'white green saffron', 'saffron white green', 'green white saffron'],
-        answer: 'saffron white green',
+        question: "The first IIT was established in1951 known as",
+        choice: ['IIT Delhi', 'IIT Kanpur', 'IIT Kharagpur', 'IIT Madras'],
+        answer: 'IIT Kharagpur',
     },
     {
         id: 7,
-        question: "I am native to India and thus truly Indian. Since time immemorial, I have been cultivated in India. In ancient times as well, the deliciousness of this fruit has been defined by many renowned poets. I am the national fruit of India:",
-        choice: ['apple', 'guava', 'mango', 'orange'],
-        answer: 'mango',
+        question: "First Minister of Education who have been awarded with Bharat Ratna Award",
+        choice: ['Morarji Desai', 'Abul Kalam Azad', 'Zakir Hussain', 'J P Narayan'],
+        answer: 'Abul Kalam Azad',
+    },
+    {
+        id: 8,
+        question: "World's first Granite Temple was built in India, find the which one",
+        choice: ['Brihadeeswarar Temple', 'Somnath Temple', 'Tirupati Temple', 'Sabarimala'],
+        answer: 'Brihadeeswarar Temple',
+    },
+    {
+        id: 9,
+        question: "Which one is the largest Zoological park (Zoo) in India",
+        choice: ['Arignar Anna Zoological Park, Chennai', 'Nandankanan Zoological Park, Bhubneswar', 'Nehru Zoological Park, Hyderabad', 'Mysore Zoo, Mysore'],
+        answer: 'Arignar Anna Zoological Park, Chennai',
+    },
+    {
+        id: 10,
+        question: "Which state is officially declared as the first Digital State of India",
+        choice: ['Kerala', 'Karnataka', 'Maharashtra', 'Tamil Nadu'],
+        answer: 'Kerala',
+    },
+    {
+        id: 11,
+        question: "The death anniversary day of Rajiv Gandhi is observed as",
+        choice: ['National Integration Day', 'Peace Day', 'Anti-Terrorism Day', 'Secular Day'],
+        answer: 'Anti-Terrorism Day',
+    },
+    {
+        id: 12,
+        question: "The official duration of the National Anthem of India is",
+        choice: ['50 sec', '52 sec', '55 sec', '60 sec'],
+        answer: '52 sec',
+    },
+    {
+        id: 13,
+        question: "Where the headquarters of the Indian Space Research Organization is located",
+        choice: ['Mumbai', 'New Delhi', 'Hyderabad', 'Bengaluru'],
+        answer: 'Bengaluru',
+    },
+    {
+        id: 14,
+        question: "In which year Sikkim declared as the first organic state of India",
+        choice: ['2013', '2014', '2015', '2016'],
+        answer: '2016',
+    },
+    {
+        id: 15,
+        question: "Which one Indian monument became the 'First historical Monument in the World' to debut on Twitter",
+        choice: ['Taj Mahal', 'Fatehpur Sikri', 'Qutub Minar', 'Red Fort'],
+        answer: 'Taj Mahal',
+    },
+    {
+        id: 16,
+        question: "The United Nations Organization (UNO) has declared the birthday of _____ as the 'World Students Day'",
+        choice: ['Dr. APJ Abdul Kalam', 'Dr. Sarvapalli Radhakrishnan', 'Jawaharlal Nehru', 'C. V. Raman'],
+        answer: 'Dr. APJ Abdul Kalam',
+    },
+    {
+        id: 17,
+        question: "National Unity Day is observed to mark the birthday of ___",
+        choice: ['Indira Gandhi', 'Lal Bahadur Shastri', 'Rajiv Gandhi', 'Vallabhbhai Patel'],
+        answer: 'Vallabhbhai Patel',
+    },
+    {
+        id: 18,
+        question: "Which city is also known as the 'Cultural Capital of India'",
+    choice: ['Kolkata', 'Varanasi', 'Allahabad', 'Puri'],
+        answer: 'Kolkata',
     }
 ];
 //-----------------------------------------------------------------------------------------// 
@@ -60,7 +126,10 @@ let progress = document.querySelector('#progressbarFull');
 //---------------------- body section -----------------------//
 let question = document.querySelector('#question');
 let options = document.querySelectorAll('.options');
-
+//-------------------------popup section-----------------//
+let txtContent = document.querySelector("#popup-content-text");
+let imgContent = document.querySelector("#image-content-img");
+let popup = document.querySelector("#popup");
 
 // -----------------------onload update-----------------
 let numberOfQuestions = questions.length;
@@ -119,7 +188,7 @@ for (let i = 0; i <= 3; i++) {
         }
 
         if (CLICKED == true) {
-            setTimeout(lateCall, 500);
+            setTimeout(lateCall, 750);
         }
     });
 }
@@ -156,10 +225,37 @@ function resetColors() {
     }
 }
 
+function popupFun(k) {
+    popup.style.display = "flex";
+    txtContent.innerText = questions[k].about;
+    imgContent.setAttribute("src", `./images_game2/${k + 1}.png`)
+
+    let close = document.querySelector("#close");
+    close.addEventListener("click", function () {
+        popup.style.display = "none";
+        return;
+    });
+}
+
+function popupFun(k) {
+    popup.style.display = "flex";
+    txtContent.innerText = questions[k].about;
+    imgContent.setAttribute("src", `./images_game5/${k + 1}.png`)
+
+    let close = document.querySelector("#close");
+    close.addEventListener("click", function () {
+        popup.style.display = "none";
+        return;
+    });
+}
+
 function lateCall() {
+    j = QUESTION_COUNTER - 1
+    popupFun(j);
     resetColors();
     next();
 }
+
 function total(arr) {
     let t = 0;
     for (let j = 0; j < arr.length; j++) {

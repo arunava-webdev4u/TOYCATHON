@@ -108,7 +108,10 @@ let progress = document.querySelector('#progressbarFull');
 //---------------------- body section -----------------------//
 let question = document.querySelector('#question');
 let options = document.querySelectorAll('.options');
-
+//-------------------------popup section-----------------//
+let txtContent = document.querySelector("#popup-content-text");
+let imgContent = document.querySelector("#image-content-img");
+let popup = document.querySelector("#popup");
 
 // -----------------------onload update-----------------
 let numberOfQuestions = questions.length;
@@ -166,8 +169,9 @@ for (let i = 0; i <= 3; i++) {
             el.path[0].style.backgroundColor = "red";
         }
 
-        if (CLICKED == true) {
-            setTimeout(lateCall, 500);
+        if (CLICKED == true)
+        {
+            setTimeout(lateCall, 750);
         }
     });
 }
@@ -204,10 +208,25 @@ function resetColors() {
     }
 }
 
+function popupFun(k) {
+    popup.style.display = "flex";
+    txtContent.innerText = questions[k].about;
+    imgContent.setAttribute("src", `./images_game4/${k + 1}.png`)
+
+    let close = document.querySelector("#close");
+    close.addEventListener("click", function () {
+        popup.style.display = "none";
+        return;
+    });
+}
+
 function lateCall() {
+    j = QUESTION_COUNTER - 1
+    popupFun(j);
     resetColors();
     next();
 }
+
 function total(arr) {
     let t = 0;
     for (let j = 0; j < arr.length; j++) {

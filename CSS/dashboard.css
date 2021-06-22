@@ -42,6 +42,9 @@ body{
 #dropdown{
     margin-left: 4%;
 }
+#dropdown:hover{
+    cursor: pointer;
+}
 #dropdown-content{
     position: absolute;
     left: 4%;
