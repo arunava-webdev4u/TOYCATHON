@@ -12,6 +12,11 @@ let winner = document.querySelector("article");
 let info = document.querySelector("#dropdown");
 let infoText = document.querySelector("#dropdown-content");
 
+// let help = document.querySelector("#help");
+// help.addEventListener('click', function(){
+//     this.setAttribute("href", "help.html");
+// });
+
 info.addEventListener('mouseover', function () {
     infoText.style.display = "block";
 });
@@ -42,7 +47,7 @@ function setupCards()
         else
         {
             cards[i].addEventListener('click', function () {
-                cardsLink[i].setAttribute("href", `/TOYCATHON/game${i+1}.html`);
+                cardsLink[i].setAttribute("href", `game${i+1}.html`);
             });
         }
     }
@@ -63,5 +68,4 @@ function setStatus()
 
     if (gameScores[4] > 1)
         winner.classList.add('hide-me');
-
 }
