@@ -10,6 +10,38 @@ body{
     font-family: 'Nova Round', cursive;
 }
 
+#dropdown{
+    /* position: relative;
+    top: 2%;
+    left: 2%; */
+    background-color: white;
+    color: steelblue;
+    width: 50px;
+    font-size: 40px;
+    margin: 0;
+    margin-left: 2%;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px rgba(46, 46, 46, 0.473);
+}
+#dropdown-content{
+    position: absolute;
+    left: 4%;
+    top: 25%;
+    background-color: white;
+    color: steelblue;
+    width: 60%;
+    font-size: 16px;
+    border: solid 2px steelblue;
+    padding: 0.5%;
+    border-radius: 10px;
+    z-index: 2;
+    display: none;
+}
+.about{
+    font-size: 1.3em;
+    margin: 1% auto;
+}
+
 #name{
  font-size: 3rem;
  margin-top: 2%;
@@ -17,7 +49,6 @@ body{
 #info{
     font-size: 1.5rem;
     color: slategrey;
-    margin-top: 1.5%;
 }
 .game-cards{
     text-decoration: none;

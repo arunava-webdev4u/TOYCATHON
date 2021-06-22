@@ -9,6 +9,16 @@ let cardsLink = document.querySelectorAll(".game-cards");
 let status = document.querySelectorAll(".status");
 let winner = document.querySelector("article");
 
+let info = document.querySelector("#dropdown");
+let infoText = document.querySelector("#dropdown-content");
+
+info.addEventListener('mouseover', function () {
+    infoText.style.display = "block";
+});
+info.addEventListener('mouseout', function () {
+    infoText.style.display = "none";
+});
+
 greet();
 setupCards();
 setStatus();
