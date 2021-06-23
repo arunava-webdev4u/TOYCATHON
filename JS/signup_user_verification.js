@@ -1,8 +1,4 @@
 let btn = document.querySelector('#signup');
-
-// btn.addEventListener('click', function(){
-//     console.log("working")
-// });
 btn.addEventListener('click', signup);
 
 function signup()
@@ -32,9 +28,11 @@ function signup()
     }
     user_array = [password, 1, 0, 0, 0, 0];
 
-    // console.log(user_array)
-
     localStorage.setItem(username, JSON.stringify(user_array));
+
+    let hint = username + "-hint";
+    let hint_array = [5, 5, 5, 5, 5];
+    localStorage.setItem(hint, JSON.stringify(hint_array));
     alert("Successfully Signed Up");
 
     btn.setAttribute("href", "index.html");

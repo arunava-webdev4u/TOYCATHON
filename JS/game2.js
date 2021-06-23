@@ -5,6 +5,7 @@ let questions = [
         choice: ['Christopher Columbus', 'Vasco da Gama', 'Ferdinand Magellan', 'Marco Polo'],
         answer: 'Vasco da Gama',
         about: "Vasco da Gama was a Portuguese explorer and the first European to reach India by sea. ",
+        hint: "First person to sail directly from Europe to India.",
     },
     {
         id: 2,
@@ -12,6 +13,7 @@ let questions = [
         choice: ['Operation Vijay', 'Operation Shakti', 'Smiling Buddha', 'Operation Ashwamedh'],
         answer: 'Smiling Buddha',
         about: "Operation Smiling Buddha was the assigned code name of India's first successful nuclear bomb test on 18 May 1974.",
+        hint: "It was conducted on a special occasion related to the moon.",
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ let questions = [
         choice: ['1930', '1928', '1932', '1927'],
         answer: '1928',
         about: "India competed at the 1928 Summer Olympics in Amsterdam, Netherlands. The men's field hockey team won the gold medal.",
+        hint: "Summer Olympics in Amsterdam, Netherlands. ",
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ let questions = [
         choice: ['University of Calcutta', 'Delhi University', 'Madras University', 'Banaras Hindu University'],
         answer: 'University of Calcutta',
         about: "The University of Calcutta (informally known as Calcutta University or abbreviated as CU) is a collegiate public state research university located in Kolkata, West Bengal, India. It was established on 24 January 1857 and is the first multidisciplinary and Western-style institution in Asia. ",
+        hint: "First multidisciplinary and Western-style institutions in Asia.",
     },
     {
         id: 5,
@@ -33,6 +37,7 @@ let questions = [
         choice: ['1948', '1950', '1952', '1955'],
         answer: '1952',
         about: "General elections were held in India between 25 October 1951 and 21 February 1952. They were the first elections to the Lok Sabha after independence in August 1947.",
+        hint: "First elections to the Lok Sabha after independence",
     },
     {
         id: 6,
@@ -40,6 +45,7 @@ let questions = [
         choice: ['Bihar', 'Uttar Pradesh', 'Uttarakhand', 'Madhya Pradesh'],
         answer: 'Uttarakhand',
         about: "Under Article 345 of the Constitution, the Uttarakhand Legislative Assembly has passed the proposal to make Hindi the official language and Sanskrit the second official language of Uttarakhand state.",
+        hint: "Formed on 9th November 2000 as the 27th State of India",
     },
     {
         id: 7,
@@ -47,6 +53,7 @@ let questions = [
         choice: ['1944', '1945', '1947', '1952'],
         answer: '1945',
         about: "On June 26, 1945, India was among 50 countries to sign the UN charter.",
+        hint: "26th June 194 _",
     },
     {
         id: 8,
@@ -54,6 +61,7 @@ let questions = [
         choice: ['Shah Jahan', 'Akbar', 'Babur', 'Jahangir'],
         answer: 'Shah Jahan',
         about: "Often described as one of the wonders of the world, the stunning 17th Century white marble Taj Mahal was built by Mughal emperor Shah Jahan as a mausoleum for his beloved wife Mumtaz Mahal",
+        hint: "Fifth Mughal emperor",
     },
     {
         id: 9,
@@ -61,6 +69,7 @@ let questions = [
         choice: ['INSAT', 'Aryabhata', 'Bhaskara', 'Rohini'],
         answer: 'Aryabhata',
         about: "The Aryabhata spacecraft, named after the famous Indian astronomer, was India's first satellite; it was completely designed and fabricated in India and launched by a Soviet Kosmos-3M rocket from Kapustin Yar on April 19, 1975.",
+        hint: "Named after the famous Indian astronomer",
     },
     {
         id: 10,
@@ -68,6 +77,7 @@ let questions = [
         choice: ['Varahamihira', 'Aryabhata', 'Panini', 'Budhayana'],
         answer: 'Budhayana',
         about: "The value of “pi” was first calculated by the Indian Mathematician Budhayana, and he explained the concept of what is known as the Pythagorean Theorem. He discovered this in the 6th century, long before the European mathematicians.",
+        hint: "Original Mathematician behind the Pythagoras theorem",
     },
     {
         id: 11,
@@ -75,6 +85,7 @@ let questions = [
         choice: ['Premlata Agarwal', 'Arunima Sinha', 'Bachendri Pal', 'Krishna Patil'],
         answer: 'Bachendri Pal',
         about: "Bachendri Pal, (born May 24, 1954, Nakuri, India), Indian mountaineer who in 1984 became the first Indian woman to reach the summit of Mount Everest. Pal was born into a rural working-class family in what is now Uttarakhand and was one of seven children.",
+        hint: "She was awarded the third highest civilian award Padma Bhushan by the Government of India in 2019.",
     },
     {
         id: 12,
@@ -82,6 +93,7 @@ let questions = [
         choice: ['1947', '1948', '1949', '1952'],
         answer: '1949',
         about: "The Reserve Bank of India was nationalised with effect from 1st January, 1949 on the basis of the Reserve Bank of India (Transfer to Public Ownership) Act, 1948.",
+        hint: "On the basis of the Reserve Bank of India (Transfer to Public Ownership) Act, 1948.",
     },
     {
         id: 13,
@@ -89,6 +101,7 @@ let questions = [
         choice: ['1979', '1980', '1982', '1985'],
         answer: '1979',
         about: "The Norwegian Nobel Committee has awarded the Nobel Peace Prize for 1979 to Mother Teresa.",
+        hint: "Before 1982",
     },
     {
         id: 14,
@@ -96,6 +109,7 @@ let questions = [
         choice: ['Subhas Chandra Bose', 'Rabindra Nath Tagore', 'B G Tilak', 'JL Nehru'],
         answer: 'Subhas Chandra Bose',
         about: "S.C Bose in 1944 in a radio address from Singapore addressed Gandhiji as Father of the Nation.",
+        hint: "'Give me blood, and I shall give you freedom!'",
     },
     {
         id: 15,
@@ -103,6 +117,7 @@ let questions = [
         choice: ['Samudragupta', 'Chandragupta I', 'Ramagupta', 'Vikramaditya'],
         answer: 'Samudragupta',
         about: "Samudragupta (335-375 AD) of the Gupta dynasty is known as the Napoleon of India. Historian A V Smith called him so because of his great military conquests known from the 'Prayag Prashasti' written by his courtier and poet Harisena, who also describes him as the hero of a hundred battles.",
+        hint: "The second emperor of the Gupta Empire of Ancient India",
     }
 ];
 //-----------------------------------------------------------------------------------------// 
@@ -120,6 +135,9 @@ let currentScore = document.querySelector('#score');
 let nextButton = document.querySelector('#next');
 let nextButtonBox = document.querySelector('#next-btn');
 let progress = document.querySelector('#progressbarFull');
+let hint = document.querySelector('#hint');
+let hintText = document.querySelector('#hint-text');
+let h = JSON.parse(localStorage.getItem(username + "-hint"));
 //---------------------- body section -----------------------//
 let question = document.querySelector('#question');
 let options = document.querySelectorAll('.options');
@@ -140,7 +158,30 @@ for (let op = 0; op <= 3; op++)
     options[op].innerText = `${questions[0].choice[op]}`;
 
 
+hint.addEventListener('click', function () {
+    setTimeout(function () {
+        hintText.style.visibility = "visible";
+        if (h[1] === -1)
+            hintText.innerText = "No more hints";
+        else
+            hintText.innerText = "Only " + h[1] + " hints left out of 5";
+        setTimeout(function () {
+            if (h[1] === -1)
+                hintText.innerText = "No more hints";
+            else
+                hintText.innerText = "Hint: '" + questions[QUESTION_COUNTER - 1].hint + "'";
+            setTimeout(function () {
+                hintText.style.visibility = "hidden";
+            }, 3000)
+        }, 1000);
+    }, 10);
 
+    let updateHint;
+    if (h[1] > -1) {
+        h[1]--;
+        localStorage.setItem(username + "-hint", JSON.stringify(h));
+    }
+});
 // --------------------------program execution----------------------
 
 nextButton.addEventListener('click', next); //allows you to skip questions

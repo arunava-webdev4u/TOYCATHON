@@ -5,6 +5,7 @@ let questions = [
         choice: ['Mumbai', 'Delhi', 'Bengaluru', 'Kolkata'],
         answer: 'Delhi',
         about: "Delhi was founded by Mughal Emperor Shah Jahan in the year 1649 and named it Shahjahanabad. Weather of Delhi is very unique because in summer it will become too hot, during winter it will be too cold and during monsoon it has amazing rainfall. As it used to be the Mughal’s empire, you can see its fluence on Delhi’s Cuisine as well. In fact Mughlai cuisine originated from Delhi itself.",
+        hint: "It's in north India",
     },
     {
         id: 2,
@@ -12,6 +13,7 @@ let questions = [
         choice: ['The Tiger', 'The Giraffe', 'The Elephant', 'The Lion'],
         answer: 'The Tiger',
         about: "Tigers are biggest cats in the world. The can live up to 25 years!!",
+        hint: "Big Cat",
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ let questions = [
         choice: ['Yen', 'Dollar', 'Pound', 'Rupee'],
         answer: 'Rupee',
         about: "The Indian rupee is the official currency of the Republic of India. The first rupee in India was introduced by Sher Shah Suri and the Bank of Hindustan issued the first paper note. The Reserve Bank of India issues and regulates the currency related provisions.",
+        hint: "q3",
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ let questions = [
         choice: ['The sparrow', 'The peacock', 'The pigeon', 'The bulbul'],
         answer: 'The peacock',
         about: "As omnivorous birds, peacocks fed on various edible items regardless of being a plant or animal source.Light striking from different angles makes a peacock’s feather change colors.",
+        hint: "q4",
     },
     {
         id: 5,
@@ -33,6 +37,7 @@ let questions = [
         choice: ['101 poems', '120 poems', '157 poems', '184 poems'],
         answer: '157 poems',
         about: "Medieval Indian lyrics of devotion provided Tagore’s model for the poems of Gītāñjali. He also composed music for these lyrics. Love is the principal subject, although some poems detail the internal conflict between spiritual longings and earthly desires.",
+        hint: "q5",
     },
     {
         id: 6,
@@ -40,6 +45,7 @@ let questions = [
         choice: ['white yellow green', 'white green saffron', 'saffron white green', 'green white saffron'],
         answer: 'saffron white green',
         about: "The Indian National Flag was adopted in its present form on July 22, 1947, during the meeting of the Constituent Assembly. By then, the design and colors of the national flag were changed five times.",
+        hint: "q6",
     },
     {
         id: 7,
@@ -47,6 +53,7 @@ let questions = [
         choice: ['apple', 'guava', 'mango', 'orange'],
         answer: 'mango',
         about: "Mango is designated as king of fruits because it is reigning the hearts of people since long through its various attributes including heat beater, remedial measures, taste, ingredient to various other yummy recipes like the pickle, mango salsa, mango desserts, mango cupcakes and much more.",
+        hint: "q7",
     },
     {
         id: 8,
@@ -54,13 +61,15 @@ let questions = [
         choice: ['banyan', 'peepal', 'neem', 'tulsi'],
 	    answer: 'banyan',
         about: "Interesting facts about the Banyan tree The banyan tree is a good source of oxygen. There are more than 750 species of fig trees and Banyan tree is one of them. It was adopted as the national tree of India in 1950",
-},
+        hint: "q8",
+    },
     {
         id: 9,
         question: "This flower holds a very significant position in Indian mythology. It is the flower of goddess Laxmi and symbolises wealth, prosperity, and fertility. It remains untouched from impurity and symbolises purity, achievement, long life and good fate. This is the national flower of India: ",
         choice: ['lotus', 'sunflower', 'rose', 'jasmine'],
         answer: 'lotus',
         about: "Lotus can reach only 125 cm (50 inches) in height but it spreads 3 meters (10 feet) horizontally (width). Lotus flowers are found in white, pink, red, blue, purpule and yellow colors and they grow in shallow and murky waters. According to a traditional story, the more muddy and opaque the water, the more beautiful the Lotus flower when it emerges.",
+        hint: "q9",
     },
     {
         id: 10,
@@ -68,76 +77,7 @@ let questions = [
         choice: ['Banaras', 'Delhi', 'Allahabad', 'Kolkata'],
         answer: 'Allahabad',
         about: "Indian Standard Time - IST is Five and a Half hours ahead of UTC / GMT. India has no Daylight Saving Time (DST) although the country spans more than 2000 Km East to West. Some of the North eastern states have a different 'Tea Garden Time' to save Daylight.",
-    },
-    {
-        id: 11,
-        question: "Question 11",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 11",
-    },
-    {
-        id: 12,
-        question: "Question 12",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 12",
-    },
-    {
-        id: 13,
-        question: "Question 13",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 13",
-    },
-    {
-        id: 14,
-        question: "Question 14",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 14",
-    },
-    {
-        id: 15,
-        question: "Question 15",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 15",
-    },
-    {
-        id: 16,
-        question: "Question 16",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 16",
-    },
-    {
-        id: 17,
-        question: "Question 17",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 17",
-    },
-    {
-        id: 18,
-        question: "Question 18",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 18",
-    },
-    {
-        id: 19,
-        question: "Question 19",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 19",
-    },
-    {
-        id: 20,
-        question: "Question 20",
-        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
-        answer: 'Answer 1',
-        about: "Question 20",
+        hint: "q10",
     }
 ];
 //-----------------------------------------------------------------------------------------// 
@@ -148,8 +88,6 @@ let QUESTION_COUNTER = 1;
 let CLICKED = false;
 let SCORE = [];
 
-let rand = [];
-
 // ----------------------head section-------------------------//
 let questionCount = document.querySelector('#questionCount');
 let totalQuestions = document.querySelector('#totalQuestions');
@@ -157,6 +95,9 @@ let currentScore = document.querySelector('#score');
 let nextButton = document.querySelector('#next');
 let nextButtonBox = document.querySelector('#next-btn');
 let progress = document.querySelector('#progressbarFull');
+let hint = document.querySelector('#hint');
+let hintText = document.querySelector('#hint-text');
+let h = JSON.parse(localStorage.getItem(username + "-hint"));
 //---------------------- body section -----------------------//
 let question = document.querySelector('#question');
 let options = document.querySelectorAll('.options');
@@ -166,7 +107,7 @@ let imgContent = document.querySelector("#image-content-img");
 let popup = document.querySelector("#popup");
 
 // -----------------------onload update-----------------
-let numberOfQuestions = questions.length-10;
+let numberOfQuestions = questions.length;
 totalQuestions.innerText = numberOfQuestions;
 questionCount.innerText = QUESTION_COUNTER;
 progress.style.width = `${(QUESTION_COUNTER / numberOfQuestions) * 100}%`;
@@ -176,6 +117,30 @@ for (let op = 0; op <= 3; op++)
     options[op].innerText = `${questions[0].choice[op]}`;
 
 
+hint.addEventListener('click', function () {
+    setTimeout(function(){
+        hintText.style.visibility = "visible";
+        if (h[0] === -1)
+            hintText.innerText = "No more hints";
+        else
+            hintText.innerText = "Only " + h[0] + " hints left out of 5";
+        setTimeout(function(){
+            if (h[0] === -1)
+                hintText.innerText = "No more hints";
+            else
+                hintText.innerText = "Hint: '" + questions[QUESTION_COUNTER-1].hint + "'";
+            setTimeout(function(){
+                hintText.style.visibility = "hidden";
+            }, 3000)
+        }, 1000);
+    }, 10);
+
+    let updateHint;
+    if (h[0] > -1){
+        h[0]--;
+        localStorage.setItem(username + "-hint", JSON.stringify(h));
+    }
+});
 // --------------------------program execution----------------------
 
 nextButton.addEventListener('click', next); //allows you to skip questions
@@ -186,7 +151,7 @@ for (let i = 0; i <= 3; i++) {
         let ans = el.path[0].innerText;
         let correctAns = questions[QUESTION_COUNTER - 1].answer.toString();
         let max = total(SCORE);
-
+        
         if (ans === correctAns)
         {
             if (SCORE.length < numberOfQuestions)
@@ -255,18 +220,6 @@ function setHeader()
 
 function setQuestions()
 {
-    let randIndex = randNum();
-    console.log(rand);
-    while (randIndex in rand)
-    {
-        randIndex = randNum();
-    }
-    console.log("question", randIndex);
-    rand.push(randIndex)
-    console.log("pushed", randIndex);
-    console.log(rand);
-    console.log("----------------------------------");
-    // rand.push();
     question.innerText = questions[QUESTION_COUNTER-1].question;
     for (let op = 0; op <= 3; op++)
         options[op].innerText = `${questions[QUESTION_COUNTER - 1].choice[op]}`;
@@ -307,7 +260,3 @@ function total(arr)
     return t;
 }
 
-function randNum()
-{
-    return Math.floor(Math.random() * questions.length - 3) + 1;
-}

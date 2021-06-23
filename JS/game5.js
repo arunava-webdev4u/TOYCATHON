@@ -4,108 +4,126 @@ let questions = [
         question: "Officially, Indian Republic Day celebration continues for a duration of",
         choice: ['One day', 'Two day', 'Three day', 'Four day'],
         answer: 'Three day',
+        hint: 'q1',
     },
     {
         id: 2,
         question: "National Youth day is celebrated in the memory of",
         choice: ['Jawaharlal Nehru', 'Subhash Chandra Bose', 'Swami Vivekananda', 'None of the above'],
         answer: 'Swami Vivekananda',
+        hint: 'q2',
     },
     {
         id: 3,
         question: "Which one is the longest National Highway of India",
         choice: ['NH 5', 'NH 7', 'NH 8', 'NH 10'],
         answer: 'NH 7',
+        hint: 'q3',
     },
     {
         id: 4,
         question: "Reading newspapers is a good habit and it is already part of modern life. This habit will widen your outlook and will enrich your knowledge. Reading the newspaper makes you well informed. The first Indian newspaper to offer an online edition on internet: ",
         choice: ['Times of India', 'Hindustan Times', 'Anandabazar Patrika', 'The Hindu'],
         answer: 'The Hindu',
+        hint: 'q4',
     },
     {
         id: 5,
         question: "On which spacecraft did Rakesh Sharma make his historic trip to Space?",
         choice: ['Salyut 7', 'Soyuz-T', 'Apollo 11', 'Progress 1'],
         answer: 'Soyuz-T',
+        hint: 'q5',
     },
     {
         id: 6,
         question: "The first IIT was established in1951 known as",
         choice: ['IIT Delhi', 'IIT Kanpur', 'IIT Kharagpur', 'IIT Madras'],
         answer: 'IIT Kharagpur',
+        hint: 'q6',
     },
     {
         id: 7,
         question: "First Minister of Education who have been awarded with Bharat Ratna Award",
         choice: ['Morarji Desai', 'Abul Kalam Azad', 'Zakir Hussain', 'J P Narayan'],
         answer: 'Abul Kalam Azad',
+        hint: 'q7',
     },
     {
         id: 8,
         question: "World's first Granite Temple was built in India, find the which one",
         choice: ['Brihadeeswarar Temple', 'Somnath Temple', 'Tirupati Temple', 'Sabarimala'],
         answer: 'Brihadeeswarar Temple',
+        hint: 'q8',
     },
     {
         id: 9,
         question: "Which one is the largest Zoological park (Zoo) in India",
         choice: ['Arignar Anna Zoological Park, Chennai', 'Nandankanan Zoological Park, Bhubneswar', 'Nehru Zoological Park, Hyderabad', 'Mysore Zoo, Mysore'],
         answer: 'Arignar Anna Zoological Park, Chennai',
+        hint: 'q9',
     },
     {
         id: 10,
         question: "Which state is officially declared as the first Digital State of India",
         choice: ['Kerala', 'Karnataka', 'Maharashtra', 'Tamil Nadu'],
         answer: 'Kerala',
+        hint: 'q10',
     },
     {
         id: 11,
         question: "The death anniversary day of Rajiv Gandhi is observed as",
         choice: ['National Integration Day', 'Peace Day', 'Anti-Terrorism Day', 'Secular Day'],
         answer: 'Anti-Terrorism Day',
+        hint: 'q11',
     },
     {
         id: 12,
         question: "The official duration of the National Anthem of India is",
         choice: ['50 sec', '52 sec', '55 sec', '60 sec'],
         answer: '52 sec',
+        hint: 'q12',
     },
     {
         id: 13,
         question: "Where the headquarters of the Indian Space Research Organization is located",
         choice: ['Mumbai', 'New Delhi', 'Hyderabad', 'Bengaluru'],
         answer: 'Bengaluru',
+        hint: 'q13',
     },
     {
         id: 14,
         question: "In which year Sikkim declared as the first organic state of India",
         choice: ['2013', '2014', '2015', '2016'],
         answer: '2016',
+        hint: 'q14',
     },
     {
         id: 15,
         question: "Which one Indian monument became the 'First historical Monument in the World' to debut on Twitter",
         choice: ['Taj Mahal', 'Fatehpur Sikri', 'Qutub Minar', 'Red Fort'],
         answer: 'Taj Mahal',
+        hint: 'q15',
     },
     {
         id: 16,
         question: "The United Nations Organization (UNO) has declared the birthday of _____ as the 'World Students Day'",
         choice: ['Dr. APJ Abdul Kalam', 'Dr. Sarvapalli Radhakrishnan', 'Jawaharlal Nehru', 'C. V. Raman'],
         answer: 'Dr. APJ Abdul Kalam',
+        hint: 'q16',
     },
     {
         id: 17,
         question: "National Unity Day is observed to mark the birthday of ___",
         choice: ['Indira Gandhi', 'Lal Bahadur Shastri', 'Rajiv Gandhi', 'Vallabhbhai Patel'],
         answer: 'Vallabhbhai Patel',
+        hint: 'q17',
     },
     {
         id: 18,
         question: "Which city is also known as the 'Cultural Capital of India'",
-    choice: ['Kolkata', 'Varanasi', 'Allahabad', 'Puri'],
+        choice: ['Kolkata', 'Varanasi', 'Allahabad', 'Puri'],
         answer: 'Kolkata',
+        hint: 'q18',
     }
 ];
 //-----------------------------------------------------------------------------------------// 
@@ -123,6 +141,9 @@ let currentScore = document.querySelector('#score');
 let nextButton = document.querySelector('#next');
 let nextButtonBox = document.querySelector('#next-btn');
 let progress = document.querySelector('#progressbarFull');
+let hint = document.querySelector('#hint');
+let hintText = document.querySelector('#hint-text');
+let h = JSON.parse(localStorage.getItem(username + "-hint"));
 //---------------------- body section -----------------------//
 let question = document.querySelector('#question');
 let options = document.querySelectorAll('.options');
@@ -140,6 +161,32 @@ progress.style.width = `${(QUESTION_COUNTER / numberOfQuestions) * 100}%`;
 question.innerText = questions[0].question;
 for (let op = 0; op <= 3; op++)
     options[op].innerText = `${questions[0].choice[op]}`;
+
+
+hint.addEventListener('click', function () {
+    setTimeout(function () {
+        hintText.style.visibility = "visible";
+        if (h[4] === -1)
+            hintText.innerText = "No more hints";
+        else
+            hintText.innerText = "Only " + h[1] + " hints left out of 5";
+        setTimeout(function () {
+            if (h[4] === -1)
+                hintText.innerText = "No more hints";
+            else
+                hintText.innerText = "Hint: '" + questions[QUESTION_COUNTER - 1].hint + "'";
+            setTimeout(function () {
+                hintText.style.visibility = "hidden";
+            }, 3000)
+        }, 1000);
+    }, 10);
+
+    let updateHint;
+    if (h[4] > -1) {
+        h[4]--;
+        localStorage.setItem(username + "-hint", JSON.stringify(h));
+    }
+});
 
 // --------------------------program execution----------------------
 
