@@ -30,10 +30,11 @@ body{
     border-radius: 50px;
     box-shadow: 3px 3px 10px rgba(46, 46, 46, 0.473);
 }
-#help{
+#read{
     margin-right: 4%;
 }
-#help-icon{
+#read-icon{
+    font-size: 38px;
     text-decoration: none;
     color: steelblue;
 }
