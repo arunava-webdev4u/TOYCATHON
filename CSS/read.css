@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6e3e3;
+    text-align: center;
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Nova Round', cursive;
+}
+
+h1{
+    margin: 1.5% 0;
+    font-size: 2.5rem;
+}
+#read-title{
+    display: flex;
+    justify-content: space-evenly;
+}
+.read-title{
+    width: 45%;
+    margin: 2% 0;
+    padding: 1%;
+    background-color: white;
+    font-size: 2rem;
+    box-shadow: 3px 3px 10px rgba(46, 46, 46, 0.473);
+    border-radius: 10px;
+}
+
+#content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    border: solid rgb(255, 255, 255) 15px;
+    box-shadow: 3px 3px 10px rgba(46, 46, 46, 0.473), inset 1px 1px 40px rgba(75, 75, 75, 0.39);;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0);
+    padding: 0.5%;
+    width: 45%;
+    margin-bottom: 2%;
+}
+
+.mapdiv{
+    background-color: rgb(64, 179, 224);
+}
+
+.mapdiv path{
+    stroke: rgb(238, 192, 9);
+    stroke-width: 1px;
+    fill: rgb(231, 55, 64);
+    transition: fill 0.2s;
+}
+.mapdiv :hover{
+    fill: cornsilk;
+}
+
+
+#readlist{
+    height: 106vh;
+    background-color: white;
+    padding: 1%;
+    overflow: auto;
+    text-align: justify;
+}
+
+h3{
+    margin: 1% 0;
+}
+
+img{
+    width: 55%;
+    float: left;
+    margin: 2% 25%;
+}

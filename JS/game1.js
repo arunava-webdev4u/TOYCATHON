@@ -68,6 +68,76 @@ let questions = [
         choice: ['Banaras', 'Delhi', 'Allahabad', 'Kolkata'],
         answer: 'Allahabad',
         about: "Indian Standard Time - IST is Five and a Half hours ahead of UTC / GMT. India has no Daylight Saving Time (DST) although the country spans more than 2000 Km East to West. Some of the North eastern states have a different 'Tea Garden Time' to save Daylight.",
+    },
+    {
+        id: 11,
+        question: "Question 11",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 11",
+    },
+    {
+        id: 12,
+        question: "Question 12",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 12",
+    },
+    {
+        id: 13,
+        question: "Question 13",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 13",
+    },
+    {
+        id: 14,
+        question: "Question 14",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 14",
+    },
+    {
+        id: 15,
+        question: "Question 15",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 15",
+    },
+    {
+        id: 16,
+        question: "Question 16",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 16",
+    },
+    {
+        id: 17,
+        question: "Question 17",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 17",
+    },
+    {
+        id: 18,
+        question: "Question 18",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 18",
+    },
+    {
+        id: 19,
+        question: "Question 19",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 19",
+    },
+    {
+        id: 20,
+        question: "Question 20",
+        choice: ['Answer 1', 'Answer 2', 'Answer 3', 'Answer 4'],
+        answer: 'Answer 1',
+        about: "Question 20",
     }
 ];
 //-----------------------------------------------------------------------------------------// 
@@ -77,6 +147,8 @@ let CURRENT_SCORE = 0;
 let QUESTION_COUNTER = 1;
 let CLICKED = false;
 let SCORE = [];
+
+let rand = [];
 
 // ----------------------head section-------------------------//
 let questionCount = document.querySelector('#questionCount');
@@ -94,7 +166,7 @@ let imgContent = document.querySelector("#image-content-img");
 let popup = document.querySelector("#popup");
 
 // -----------------------onload update-----------------
-let numberOfQuestions = questions.length;
+let numberOfQuestions = questions.length-10;
 totalQuestions.innerText = numberOfQuestions;
 questionCount.innerText = QUESTION_COUNTER;
 progress.style.width = `${(QUESTION_COUNTER / numberOfQuestions) * 100}%`;
@@ -183,6 +255,18 @@ function setHeader()
 
 function setQuestions()
 {
+    let randIndex = randNum();
+    console.log(rand);
+    while (randIndex in rand)
+    {
+        randIndex = randNum();
+    }
+    console.log("question", randIndex);
+    rand.push(randIndex)
+    console.log("pushed", randIndex);
+    console.log(rand);
+    console.log("----------------------------------");
+    // rand.push();
     question.innerText = questions[QUESTION_COUNTER-1].question;
     for (let op = 0; op <= 3; op++)
         options[op].innerText = `${questions[QUESTION_COUNTER - 1].choice[op]}`;
@@ -221,4 +305,9 @@ function total(arr)
         t += arr[j];
     }
     return t;
+}
+
+function randNum()
+{
+    return Math.floor(Math.random() * questions.length - 3) + 1;
 }

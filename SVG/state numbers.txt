@@ -16,7 +16,9 @@
 16 - Jharkhand
 17 - Karnataka
 18 - Kerala
-19 - Madhya Pradesh
+
+19 - Madhya Pradesh "https://www.google.com/maps/place/Madhya+Pradesh/@23.9085453,73.9278374,6z/data=!3m1!4b1!4m5!3m4!1s0x39667381d35aea05:0xe0106b0d4e701c1e!8m2!3d22.9734229!4d78.6568942"
+
 20 - Maharashtra
 21 - Manipur
 22 - Meghalaya
@@ -31,7 +33,9 @@
 31 - Tripura
 32 - Uttar Pradesh
 33 - Uttaranchal
-34 - West Bengal
+
+34 - West Bengal "https://www.google.com/maps/place/West+Bengal/@24.3562949,85.6064308,7z/data=!3m1!4b1!4m5!3m4!1s0x39fa16ff1397e887:0x71543a3dc3e7a20a!8m2!3d22.9867569!4d87.8549755"
+
 35 - Lakshadweep
 36 - Jammu and Kashmir
 37 - Ladakh
