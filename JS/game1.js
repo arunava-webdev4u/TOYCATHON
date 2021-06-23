@@ -117,6 +117,8 @@ for (let op = 0; op <= 3; op++)
     options[op].innerText = `${questions[0].choice[op]}`;
 
 
+nextButtonBox.addEventListener('click', clickPlay); //////////////////////////////////////////////////////////////////
+
 hint.addEventListener('click', function () {
     setTimeout(function(){
         hintText.style.visibility = "visible";
@@ -154,6 +156,7 @@ for (let i = 0; i <= 3; i++) {
         
         if (ans === correctAns)
         {
+            clickPlay(1);   ///////////////////////////////////////////////////////////////////////////////////////
             if (SCORE.length < numberOfQuestions)
             {
                 SCORE.push(10);
@@ -179,6 +182,7 @@ for (let i = 0; i <= 3; i++) {
         }
         else
         {
+            clickPlay(0);   ////////////////////////////////////////////////////////////////////////////////////////////
             if (SCORE.length < numberOfQuestions){
                 SCORE.push(0);
                 max = total(SCORE);
@@ -199,6 +203,7 @@ for (let i = 0; i <= 3; i++) {
 
 // ---------------------------function definitions--------------------------
 function next() {
+    clickPlay(-1);  ///////////////////////////////////////////////////////////////////////////////////////////////////////////
     if (QUESTION_COUNTER === numberOfQuestions) {
         nextButton.setAttribute("href", "dashboard.html");
         return
@@ -260,3 +265,15 @@ function total(arr)
     return t;
 }
 
+function clickPlay(num) {
+    var a_1 = document.querySelector("#clk-sound");
+    var a1 = document.querySelector("#clk-right");
+    var a0 = document.querySelector("#clk-wrong");
+    
+    if (num === -1)
+        a_1.play();
+    if (num === 0)
+        a0.play();
+    if (num === 1)
+        a1.play();
+}
