@@ -4,6 +4,7 @@ let questions = [
         question: "Which one is the original source from which the Indian national motto Satyameva jayate is adopted?",
         choice: ['Mundaka Upanishad', 'Prashna Upanishad', ' Samaveda', ' Yajurveda'],
         answer: 'Mundaka Upanishad',
+        about: "Following the independence of India, it was adopted as the national motto of India on 26 January 1950, the day India became a republic. It is inscribed in the Devanagari script at the base of the Lion Capital of Ashoka and forms an integral part of the Indian national emblem. The emblem and the words 'Satyameva Jayate' are inscribed on one side of all Indian currency and national documents.",
         hint: 'Is an ancient Sanskrit Vedic text, embedded inside Atharva Veda.',
     },
     {
@@ -11,6 +12,7 @@ let questions = [
         question: "The Ashok stambh of which place has been adopted as the national emblem of India?",
         choice: ['Sanchi', 'Vaishali', ' Sarnath', 'Allahabad'],
         answer: 'Sarnath',
+        about: "The Ashoka Pillar of Sarnath is one of the remaining 19 pillars built by king Ashoka during his reign. The stambh has four lions sitting back to back. Power, courage, confidence and pride are represented by these four lions. The stambh also has illustrated figures of a horse and a bull.",
         hint: 'Where Gautama Buddha first taught Dharma.',
     },
     {
@@ -18,6 +20,7 @@ let questions = [
         question: "Declared as World Heritage Sites by UNESCO since 1983, the paintings and sculptures of Ajanta and Ellora, considered masterpieces of Buddhist religious art, have had a great influence in the development of art in India. Total number of caves present in the Ajanta and Ellora Caves, Maharashtra are?",
         choice: ['41,20', '33,31', '21,30', '30,34'],
         answer: '30,34',
+        about: "Ajanta Caves date back to the time between 2nd century BCE to 480 or 650 CE. On the other hand, Ellora Caves were discovered after Ajanta that is between 5th and 10 century CE. Ajanta Caves display Viharas and Buddhist monasteries and Ellora Caves consists of religious centers for Hindu, Buddhist, and Jain.",
         hint: '_ _, 3_',
     },
     {
@@ -25,6 +28,7 @@ let questions = [
         question: "Museums collect and preserve our objects and materials of religious, cultural and historical value. They are a good source of entertainment. These museums help to preserve and promote our cultural heritage. The largest museum of India is located at",
         choice: ['Kolkata', 'Delhi', 'Mumbai', 'Hyderabad'],
         answer: 'Kolkata',
+        about: "The Indian Museum in Kolkata, West Bengal, India, also referred to as the Imperial Museum at Calcutta in colonial-era texts, is the ninth oldest museum in the world, the oldest museum in India, and the largest museum in India. It has rare collections of antiques, armour and ornaments, fossils, skeletons, mummies and Mughal paintings.",
         hint: 'Former capital (​1772–1911) of British India.',
     },
     {
@@ -32,6 +36,7 @@ let questions = [
         question: "The Rath Yatra at Puri is celebrated in honour of which Hindu deity",
         choice: ['Ram', 'Jagannath', 'Vishnu', 'Shiva'],
         answer: 'Jagannath',
+        about: "The Jagannath Temple in Puri, Odisha is one of the four most sacred shrines of India. It is more than 800 years old and is the place where Lord Shri Krishna resides in the form of Jagannath. His elder brother, Balram and his sister, Goddess Subhadra are also worshiped here.",
         hint: 'Balabhadra & ‎Subhadra.',
     },
     {
@@ -39,6 +44,7 @@ let questions = [
         question: "Jana Gana Mana is the national anthem of India. It was originally composed as Bharoto Bhagyo Bidhata in Bengali by polymath Rabindranath Tagore. The first stanza of the song Bharoto Bhagyo Bidhata was adopted by the Constituent Assembly of India as the National Anthem on 24 January 1950. The National Anthem was first sung in the year?",
         choice: ['1921', '1911', '1931', '1941'],
         answer: '1911',
+        about: "The original national anthem song was written by the Rabindranath Tagore which was later translated into the Hindi and Urdu by Abid Ali. The full version National Anthem song is sung using the orchestral/choral adaptation (made by English composer, Herbert Murrill on request of Nehru).",
         hint: 'It was before 1935.',
     },
     {
@@ -46,6 +52,7 @@ let questions = [
         question: "The National Song of India, Vande Mataram, composed in Sanskrit  was a source of inspiration to the people in their struggle for freedom. The National Song of India was composed by?",
         choice: ['Sarat Chandra Chattopadhyay', 'Kazi Nazrul Islam', 'Bankimchandra Chatterji', 'Ram Mohan Roy'],
         answer: 'Bankimchandra Chatterji',
+        about: "He wrote Vande Mataram at Chinsurah, near the river Hooghly (near Mallik Ghat).  It is assumed that the concept of Vande Mataram clicked to Bankim Chandra Chattopadhyay when he was serving as a government official (a District Collector), around 1876.",
         hint: 'Indian novelist, poet and journalist. ',
     },
     {
@@ -53,6 +60,7 @@ let questions = [
         question: "Who composed the famous song 'Sare Jahan Se Achha'?",
         choice: ['Allama Iqbal', 'Javed Iqbal', 'Jaun Elia', 'Muhammad Ali Jinnah'],
         answer: 'Allama Iqbal',
+        about: "Recited by Iqbal the following year at Government College, Lahore, now in Pakistan, it quickly became an anthem of opposition to the British rule in India.The song, an ode to Hindustan—the land comprising present-day Bangladesh, India, and Pakistan—both celebrated and cherished the land even as it lamented its age-old anguish. Also known as Tarana-e-Hindi (“Anthem of the People of Hindustan”), it was later published in 1924 in the Urdu book Bang-i-Dara.",
         hint: 'South Asian Muslim writer, philosopher, and politician, whose poetry in the Urdu language is among the greatest of the twentieth century.',
     },
     {
@@ -60,6 +68,7 @@ let questions = [
         question: "‘Dandiya’ or ‘Dandiya Raas’ is a dance form performed during the time of Navratri. Originally performed in honor of Goddess Durga, the dance form represents a battle between the demon Mahishasura and the Goddess. 'Dandia' is a popular dance of:",
         choice: ['Rajasthan', 'Gujarat', 'Assam', 'Karnataka'],
         answer: 'Gujarat',
+        about: "Dandiya dates back to ancient times where it used to be a learning component during footworks practice for sword fight. Initially, it was performed by men.",
         hint: 'Western coast of India.',
     },
     {
@@ -67,6 +76,7 @@ let questions = [
         question: "Tansen, a great musician of his time, was in the court of –",
         choice: ['Akbar', 'Shah Jahan', 'Jahangir', 'Humayun'],
         answer: 'Akbar',
+        about: "Numerous legends have been created around him whicg mix facts and fiction. Although, the accuracy of these stories is doubtful, it is widely accepted that Akbar considered him as a Navaratna (nine jewels), and honored him the title Mian which means learned man.",
         hint: 'The emperor who reigned from 1556 to 1605.',
     },
     {
@@ -74,6 +84,7 @@ let questions = [
         question: "The Panchatantra is a book of niti,the wise conduct of life,written in the form of a chain of simple stories.Each of these stories has a moral and philosophical theme aiming to guide the reader on how to attain success in life by understanding human nature.‘Panchatantra’ is originally written by",
         choice: ['Kalidas', 'Vishnu Sharma', 'Tulsi Das', 'None of these'],
         answer: 'Vishnu Sharma',
+        about: "Vishnu Sharma was the author of this anthropomorphic political treatise called Panchatantra. He lived in Varanasi in the 3rd century BC. He was a Sanskrit scholar and the official Guru of the then prince of Kashi.He wrote Panchatantra to teach political science to his royal disciples.",
         hint: 'He lived in Varanasi in the 3rd century BC.',
     },
     {
@@ -81,6 +92,7 @@ let questions = [
         question: "The famous Red Fort is known by that name because of the red stone with which it is built and it is one of the most magnificent palaces in the world. Where is it located?",
         choice: ['Kolkata', 'Chennai', 'Delhi', 'Jaipur'],
         answer: 'Delhi',
+        about: "Red Fort is White! Yes, you heard it right! Red fort was made up of lime stones and when the white stone started chipping off, the Britishers painted it with red paint.",
         hint: 'Massive metropolitan area in the country’s north.',
     },
     {
@@ -88,6 +100,7 @@ let questions = [
         question: "An important monument of the city, is a memorial built in commemoration of more than 80,000 Indian soldiers who were killed during World War I. The monument is an imposing 42 meters high arch and was designed by the famous architect Edwin Lutyens. Name this monument:",
         choice: ['Qutub Minar', 'Charminar', 'India Gate', 'Gwalior Fort'],
         answer: 'India Gate',
+        about: "The foundation stone of India Gate was laid by the Duke of Connaught, on 10th February 1921. It took approximately 10 years to complete the construction work on the monument, which came to an end in 1931.",
         hint: 'Formerly called Kingsway.',
     },
     {
@@ -95,6 +108,7 @@ let questions = [
         question: "During the last 150 years, many writers have contributed to the development of modern Indian literature, written in a number of regional languages as well as in English. One of the greatest Bengali writers, ___ became the first Indian to win the Nobel Prize for literature in 1913. Fill in the blanks:",
         choice: ['Kabir Das', 'Sarojini Naidu', 'Rabindranath Tagore', 'Kazi Nazrul Islam'],
         answer: 'Rabindranath Tagore',
+        about: "A poet, musician, writer and even a painter, Rabindranath Tagore was one of the greatest minds of India. The first Asian to win a Nobel Prize, Tagore composed more than 2,000 songs and penned a large number of poems, stories, dramas, and novels. His works “Gitanjali” and “Jeevan Smriti” are still cherished today.",
         hint: 'Gurudev, Kobiguru.',
     },
     {
@@ -102,6 +116,7 @@ let questions = [
         question: "The National School of Drama(NSD) - one of the foremost theatre institutions in the world and the only one of its kind in India was set up by Sangeet Natak Akademi in?",
         choice: ['1969', '1953', '1959', '1963'],
         answer: '1959',
+        about: "The professional performing wing of the NSD is the Repertory Company, set up in 1964. The Repertory Company has staged over 120 plays based on the works of about 70 playwrights and featuring around 50 directors in several countries.",
         hint: 'It was a year after 1955.',
     }
 ];
@@ -148,7 +163,7 @@ hint.addEventListener('click', function () {
         if (h[3] === -1)
             hintText.innerText = "No more hints";
         else
-            hintText.innerText = "Only " + h[1] + " hints left out of 5";
+            hintText.innerText = "Only " + h[3] + " hints left out of 5";
         setTimeout(function () {
             if (h[3] === -1)
                 hintText.innerText = "No more hints";

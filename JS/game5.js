@@ -169,7 +169,7 @@ hint.addEventListener('click', function () {
         if (h[4] === -1)
             hintText.innerText = "No more hints";
         else
-            hintText.innerText = "Only " + h[1] + " hints left out of 5";
+            hintText.innerText = "Only " + h[4] + " hints left out of 5";
         setTimeout(function () {
             if (h[4] === -1)
                 hintText.innerText = "No more hints";

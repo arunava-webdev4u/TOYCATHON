@@ -163,7 +163,7 @@ hint.addEventListener('click', function () {
         if (h[2] === -1)
             hintText.innerText = "No more hints";
         else
-            hintText.innerText = "Only " + h[1] + " hints left out of 5";
+            hintText.innerText = "Only " + h[2] + " hints left out of 5";
         setTimeout(function () {
             if (h[2] === -1)
                 hintText.innerText = "No more hints";
@@ -270,18 +270,6 @@ function resetColors() {
     for (let i = 0; i <= 3; i++) {
         options[i].style.backgroundColor = "steelblue";
     }
-}
-
-function popupFun(k) {
-    popup.style.display = "flex";
-    txtContent.innerText = questions[k].about;
-    imgContent.setAttribute("src", `./images_game3/${k + 1}.png`)
-
-    let close = document.querySelector("#close");
-    close.addEventListener("click", function () {
-        popup.style.display = "none";
-        return;
-    });
 }
 
 function popupFun(k) {
