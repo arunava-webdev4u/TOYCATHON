@@ -156,7 +156,7 @@ hint.addEventListener('click', function () {
                 hintText.innerText = "Hint: '" + questions[QUESTION_COUNTER - 1].hint + "'";
             setTimeout(function () {
                 hintText.style.visibility = "hidden";
-            }, 3000)
+            }, 5000)
         }, 1000);
     }, 10);
 
@@ -171,14 +171,17 @@ hint.addEventListener('click', function () {
 
 nextButton.addEventListener('click', next); //allows you to skip questions
 
-for (let i = 0; i <= 3; i++) {
+for (let i = 0; i <= 3; i++)
+{
     options[i].addEventListener('click', function (el) {
         let CLICKED = true;
         let ans = el.path[0].innerText;
         let correctAns = questions[QUESTION_COUNTER - 1].answer.toString();
         let max = total(SCORE);
 
-        if (ans === correctAns) {
+        if (ans === correctAns) 
+        {
+            clickPlay(1);
             if (SCORE.length < numberOfQuestions) {
                 SCORE.push(10);
                 max = total(SCORE);
@@ -200,7 +203,9 @@ for (let i = 0; i <= 3; i++) {
             }
             el.path[0].style.backgroundColor = "green";
         }
-        else {
+        else
+        {
+            clickPlay(0);
             if (SCORE.length < numberOfQuestions) {
                 SCORE.push(0);
                 max = total(SCORE);
@@ -277,4 +282,14 @@ function total(arr) {
         t += arr[j];
     }
     return t;
+}
+
+function clickPlay(num) {
+    var a1 = document.querySelector("#clk-right");
+    var a0 = document.querySelector("#clk-wrong");
+
+    if (num === 0)
+        a0.play();
+    if (num === 1)
+        a1.play();
 }

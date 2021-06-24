@@ -21,7 +21,7 @@ let questions = [
         choice: ['Yen', 'Dollar', 'Pound', 'Rupee'],
         answer: 'Rupee',
         about: "The Indian rupee is the official currency of the Republic of India. The first rupee in India was introduced by Sher Shah Suri and the Bank of Hindustan issued the first paper note. The Reserve Bank of India issues and regulates the currency related provisions.",
-        hint: "q3",
+        hint: "100 paisa = ?",
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ let questions = [
         choice: ['The sparrow', 'The peacock', 'The pigeon', 'The bulbul'],
         answer: 'The peacock',
         about: "As omnivorous birds, peacocks fed on various edible items regardless of being a plant or animal source.Light striking from different angles makes a peacock’s feather change colors.",
-        hint: "q4",
+        hint: "'Dancing in rain'",
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ let questions = [
         choice: ['101 poems', '120 poems', '157 poems', '184 poems'],
         answer: '157 poems',
         about: "Medieval Indian lyrics of devotion provided Tagore’s model for the poems of Gītāñjali. He also composed music for these lyrics. Love is the principal subject, although some poems detail the internal conflict between spiritual longings and earthly desires.",
-        hint: "q5",
+        hint: "Ans is not an even number",
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ let questions = [
         choice: ['white yellow green', 'white green saffron', 'saffron white green', 'green white saffron'],
         answer: 'saffron white green',
         about: "The Indian National Flag was adopted in its present form on July 22, 1947, during the meeting of the Constituent Assembly. By then, the design and colors of the national flag were changed five times.",
-        hint: "q6",
+        hint: "White in middle",
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ let questions = [
         choice: ['apple', 'guava', 'mango', 'orange'],
         answer: 'mango',
         about: "Mango is designated as king of fruits because it is reigning the hearts of people since long through its various attributes including heat beater, remedial measures, taste, ingredient to various other yummy recipes like the pickle, mango salsa, mango desserts, mango cupcakes and much more.",
-        hint: "q7",
+        hint: "Its sweet, and juicy",
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ let questions = [
         choice: ['banyan', 'peepal', 'neem', 'tulsi'],
 	    answer: 'banyan',
         about: "Interesting facts about the Banyan tree The banyan tree is a good source of oxygen. There are more than 750 species of fig trees and Banyan tree is one of them. It was adopted as the national tree of India in 1950",
-        hint: "q8",
+        hint: " leaf of the banyan tree is said to be the resting place for the lord Krishna",
     },
     {
         id: 9,
@@ -69,7 +69,7 @@ let questions = [
         choice: ['lotus', 'sunflower', 'rose', 'jasmine'],
         answer: 'lotus',
         about: "Lotus can reach only 125 cm (50 inches) in height but it spreads 3 meters (10 feet) horizontally (width). Lotus flowers are found in white, pink, red, blue, purpule and yellow colors and they grow in shallow and murky waters. According to a traditional story, the more muddy and opaque the water, the more beautiful the Lotus flower when it emerges.",
-        hint: "q9",
+        hint: "Ganga and Ganesha are often depicted with lotus flowers as their seats.",
     },
     {
         id: 10,
@@ -77,7 +77,7 @@ let questions = [
         choice: ['Banaras', 'Delhi', 'Allahabad', 'Kolkata'],
         answer: 'Allahabad',
         about: "Indian Standard Time - IST is Five and a Half hours ahead of UTC / GMT. India has no Daylight Saving Time (DST) although the country spans more than 2000 Km East to West. Some of the North eastern states have a different 'Tea Garden Time' to save Daylight.",
-        hint: "q10",
+        hint: "Here 'Triveni Sangam' is held",
     }
 ];
 //-----------------------------------------------------------------------------------------// 
@@ -117,8 +117,6 @@ for (let op = 0; op <= 3; op++)
     options[op].innerText = `${questions[0].choice[op]}`;
 
 
-nextButtonBox.addEventListener('click', clickPlay); //////////////////////////////////////////////////////////////////
-
 hint.addEventListener('click', function () {
     setTimeout(function(){
         hintText.style.visibility = "visible";
@@ -133,7 +131,7 @@ hint.addEventListener('click', function () {
                 hintText.innerText = "Hint: '" + questions[QUESTION_COUNTER-1].hint + "'";
             setTimeout(function(){
                 hintText.style.visibility = "hidden";
-            }, 3000)
+            }, 5000)
         }, 1000);
     }, 10);
 
@@ -156,7 +154,7 @@ for (let i = 0; i <= 3; i++) {
         
         if (ans === correctAns)
         {
-            clickPlay(1);   ///////////////////////////////////////////////////////////////////////////////////////
+            clickPlay(1);
             if (SCORE.length < numberOfQuestions)
             {
                 SCORE.push(10);
@@ -182,7 +180,7 @@ for (let i = 0; i <= 3; i++) {
         }
         else
         {
-            clickPlay(0);   ////////////////////////////////////////////////////////////////////////////////////////////
+            clickPlay(0);
             if (SCORE.length < numberOfQuestions){
                 SCORE.push(0);
                 max = total(SCORE);
@@ -203,7 +201,6 @@ for (let i = 0; i <= 3; i++) {
 
 // ---------------------------function definitions--------------------------
 function next() {
-    clickPlay(-1);  ///////////////////////////////////////////////////////////////////////////////////////////////////////////
     if (QUESTION_COUNTER === numberOfQuestions) {
         nextButton.setAttribute("href", "dashboard.html");
         return
@@ -266,12 +263,9 @@ function total(arr)
 }
 
 function clickPlay(num) {
-    var a_1 = document.querySelector("#clk-sound");
     var a1 = document.querySelector("#clk-right");
     var a0 = document.querySelector("#clk-wrong");
-    
-    if (num === -1)
-        a_1.play();
+
     if (num === 0)
         a0.play();
     if (num === 1)

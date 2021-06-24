@@ -5,7 +5,7 @@ let questions = [
         choice: ['Kerala', 'Karnataka', 'Assam', 'Andhra Pradesh'],
         answer: 'Kerala',
         about: "India is very popular for spices throughout the globe. The spices grown in Kerala are the utmost value for taste. Irrespective of taste, it also contributes to the income of people there as spices are still a source of export. The Kerala state is ‘Spice Trade Hub’. Kerala is referred to as the spice garden of India as it has a variety of spices and is popular in the entire world. ",
-        hint: "q1",
+        hint: "It is a small state, constituting only about 1 percent of the total area of the country.",
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ let questions = [
         choice: ['Ghum', 'Ooty', 'Shimla', 'Solan'],
         answer: 'Ghum',
         about: "Ghum railway station of the Darjeeling Himalayan Railway is the highest railway station in India. It is situated at an altitude of 2,258 metres. The place is the home of the Ghoom Monastery and the Batasia Loop, a bend of the Darjeeling Himalayan Railway.",
-        hint: "q2",
+        hint: "A bend of the Darjeeling Himalayan Railway.",
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ let questions = [
         choice: ['Tamil Nadu', 'Karnataka', 'Kerala', 'Andhra Pradesh'],
         answer: 'Tamil Nadu',
         about: "Bharatanatyam, also previously called Sadhir Attam, is a major form of Indian classical dance that originated in Tamil Nadu. It has flourished in the temples and courts of southern India since ancient times.",
-        hint: "q3",
+        hint: "The town of Kanyakumari, at India’s southernmost tip, is the site of ritual sunrises.",
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ let questions = [
         choice: ['Mizoram', 'Kerala', 'Lakshadweep', 'Manipur'],
         answer: 'Kerala',
         about: "Kerala is the most literate state in India, with a 96.2% literacy rate, according to a report based on a National Statistical Office survey. After Kerala, Delhi has the highest literacy rate in the country at 88.7%. ",
-        hint: "q4",
+        hint: "A state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline.",
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ let questions = [
         choice: ['Bangalore', 'Guwahati', 'Pune', 'Madurai'],
         answer: 'Bangalore',
         about: "Bright orange bollards popped up Bengaluru's Outer Ring Road (ORR) on 6 October 2020, marking India's first pop-up cycle lane. After Bengaluru Police Commissioner Bhaskar Rao announced a dedicated 17km cycle lane along the ORR in early June, the Bruhat Bengaluru Mahanagara Palike, the Directorate of Urban Land Transport (DULT) Bengaluru and the World Resources Institute (WRI) India have been working together to complete the stretch between Lowry Memorial College and Silk Board junction by the end of the year.",
-        hint: "q5",
+        hint: "The capital of India's southern Karnataka state.",
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ let questions = [
         choice: ['Mumbai', 'Delhi', 'Chennai', 'Kolkata'],
         answer: 'Mumbai',
         about: "The National Stock Exchange of India Limited (NSE), is a Mumbai-based stock exchange. It is the biggest stock exchange in India and the third biggest in the world in terms of amounts of transactions. NSE is mutually-owned by a set of leading financial institutions, banks, insurance companies and other financial intermediaries in India but its ownership and management operate as separate groups.",
-        hint: "q6",
+        hint: "A financial center, it's India's largest city.",
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ let questions = [
         choice: ['Delhi', 'Kolkata', 'Hyderabad', 'Bengaluru'],
         answer: 'Bengaluru',
         about: "Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. ",
-        hint: "q7",
+        hint: "The center of India's high-tech industry, the city is also known for its parks and nightlife.",
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ let questions = [
         choice: ['80.5° E', '81.5° E', '82.5° E', '85.5° E'],
         answer: '82.5° E',
         about: "Indian Standard Time is calculated on the basis of 82.5 degrees east longitude from the clock tower in Mirzapur near Allahabad Uttar Pradesh, which is situated approximately on the corresponding longitude reference line.",
-        hint: "q8",
+        hint: "This Standard meridian passes through Mirzapur in Uttar Pradesh and it is considered as the standard time for the whole country. ",
     },
     {
         id: 9,
@@ -69,7 +69,7 @@ let questions = [
         choice: ['Indian Institute of Technology, Delhi', 'Indian Iron and Steel Co Ltd., Burnpur', 'Indian Statistical Institute, Calcutta', 'Indian Institute of Science, Bangalore'],
         answer: 'Indian Statistical Institute, Calcutta',
         about: "Indian Statistical Institute is a Civil Service and Research institute which is recognized as an institute of national importance by the 1959 act of the Indian parliament. It grew out of the Statistical Laboratory set up by Prasanta Chandra Mahalanobis in Presidency College, Kolkata.",
-        hint: "q9",
+        hint: "A Civil Service and Research institute which is recognized as an institute of national importance by the 1959 act of the Indian parliament.",
     },
     {
         id: 10,
@@ -77,7 +77,7 @@ let questions = [
         choice: ['Wular Lake, Kashmir', 'Hussain Sagar, Hyderabad', 'Ramgarh Lake, Rajasthan', 'Dal Lake, Kashmir'],
         answer: 'Wular Lake, Kashmir',
         about: "Wular Lake is one of the largest freshwater lakes in Asia. It is sited in Bandipora district in Jammu and Kashmir, India. The lake basin was formed as a result of tectonic activity and is fed by the Jhelum River. The lake's size varies seasonally from 30 to 189 square kilometres.",
-        hint: "q10",
+        hint: "Jammu and Kashmir, India",
     },
     {
         id: 11,
@@ -85,7 +85,7 @@ let questions = [
         choice: ['Everest', 'Nanda Devi', 'Kanchenjunga', 'Yamunotri'],
         answer: 'Kanchenjunga',
         about: "Kanchenjunga is the highest peak in India and the easternmost of the peaks higher than 8,000 metres. As per Everesters in Bengal, the constant threat of snowstorms and avalanches makes the peak dangerous for climbers. Near the top, the oxygen in the air is about a third at sea level.",
-        hint: "q11",
+        hint: "Five Treasures of the Snow",
     },
     {
         id: 12,
@@ -93,7 +93,7 @@ let questions = [
         choice: ['Delhi', 'Kolkata', 'Pune', 'Mumbai'],
         answer: 'Delhi',
         about: "Transportation is an important part of Indian geography. In India, there are three kinds of transportation. Indian railways framework is the biggest in Asia and the fourth biggest in the World. It is the largest departmental Public undertaking in India. The Indian Railways celebrated its 150th anniversary in 2003. The headquarters of Indian Railway is situated in New Delhi.",
-        hint: "q12",
+        hint: "Nearby is Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and spice stalls. ",
     },
     {
         id: 13,
@@ -101,7 +101,7 @@ let questions = [
         choice: ['Jammu and Kashmir', 'Manipur', 'Meghalaya', 'Arunachal Pradesh'],
         answer: 'Meghalaya',
         about: "Meghalaya is a state in Northeast India. Meghalaya was formed by carving out two districts from the state of Assam: the United Khasi Hills and Jaintia Hills, and the Garo Hills on 21 January 1972.",
-        hint: "q13",
+        hint: "Northeast India.",
     },
     {
         id: 14,
@@ -109,7 +109,7 @@ let questions = [
         choice: ['Arunachal Pradesh', 'Haryana', 'Madhya Pradesh', 'Assam'],
         answer: 'Madhya Pradesh',
         about: "Madhya Pradesh, with 31% of geographical area as forest land, is rich in floral and faunal biodiversity. These forests host 9 National Parks, 25 Wildlife Sanctuaries, 2 Biosphere Reserves, 5 Tiger Reserves and also house a substantial number of villages which are highly dependent on forests for livelihoods.",
-        hint: "q14",
+        hint: "A large state in central India, retains landmarks from eras throughout Indian history.",
     },
     {
         id: 15,
@@ -117,7 +117,7 @@ let questions = [
         choice: ['Goa', 'Daman and Diu', 'Puducherry', 'Lakshadweep'],
         answer: 'Puducherry',
         about: "Puducherry, also known as Pondicherry, is a union territory of India. It was formed out of four territories of former French India, namely Pondichéry, Karaikal, Mahé and Yanaon, excluding Chandannagar. It is named after the largest district, Puducherry.",
-        hint: "q15",
+        hint: "It is a union territory of India.",
     }
 ];
 //-----------------------------------------------------------------------------------------// 
@@ -171,7 +171,7 @@ hint.addEventListener('click', function () {
                 hintText.innerText = "Hint: '" + questions[QUESTION_COUNTER - 1].hint + "'";
             setTimeout(function () {
                 hintText.style.visibility = "hidden";
-            }, 3000)
+            }, 5000)
         }, 1000);
     }, 10);
 
@@ -186,14 +186,17 @@ hint.addEventListener('click', function () {
 
 nextButton.addEventListener('click', next); //allows you to skip questions
 
-for (let i = 0; i <= 3; i++) {
+for (let i = 0; i <= 3; i++)
+{
     options[i].addEventListener('click', function (el) {
         let CLICKED = true;
         let ans = el.path[0].innerText;
         let correctAns = questions[QUESTION_COUNTER - 1].answer.toString();
         let max = total(SCORE);
 
-        if (ans === correctAns) {
+        if (ans === correctAns)
+        {
+            clickPlay(1);
             if (SCORE.length < numberOfQuestions) {
                 SCORE.push(10);
                 max = total(SCORE);
@@ -215,7 +218,9 @@ for (let i = 0; i <= 3; i++) {
             }
             el.path[0].style.backgroundColor = "green";
         }
-        else {
+        else
+        {
+            clickPlay(0);
             if (SCORE.length < numberOfQuestions) {
                 SCORE.push(0);
                 max = total(SCORE);
@@ -304,4 +309,14 @@ function total(arr) {
         t += arr[j];
     }
     return t;
+}
+
+function clickPlay(num) {
+    var a1 = document.querySelector("#clk-right");
+    var a0 = document.querySelector("#clk-wrong");
+
+    if (num === 0)
+        a0.play();
+    if (num === 1)
+        a1.play();
 }
