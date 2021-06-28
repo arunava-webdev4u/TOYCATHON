@@ -1,41 +1,73 @@
-1 - Andaman and Nicobar
-2 - Telangana
-3 - Andhra Pradesh
-4 - Arunachal Pradesh
-5 - Assam
-6 - Bihar
-7 - Chandigarh
-8 - Chhattisgarh
-9 - Dadra and Nagar Haveli
-10 - Daman and Diu
-11 - Delhi
-12 - Goa
-13 - Gujarat
-14 - Haryana
-15 - Himachal Pradesh
-16 - Jharkhand
-17 - Karnataka
-18 - Kerala
+1 - Andaman and Nicobar "https://www.google.com/maps/place/Andaman+and+Nicobar+Islands/data=!4m2!3m1!1s0x3064a00f2b650ff3:0xce80055648fccb2c?sa=X&ved=2ahUKEwiwkPmu3LnxAhXgILcAHXt5DvoQ8gEwKXoECGcQAQ"
+
+2 - Telangana "https://www.google.com/maps/place/Telangana/data=!4m2!3m1!1s0x3a3350db9429ed43:0x63ef7ba741594059?sa=X&ved=2ahUKEwjovLek3LnxAhUSgOYKHYVKD3QQ8gEwL3oECHEQAQ"
+
+3 - Andhra Pradesh "https://www.google.com/maps/place/Andhra+Pradesh/data=!4m2!3m1!1s0x3a3546f8ae93d47f:0x33d1bbbe95adcd83?sa=X&ved=2ahUKEwjjhtmb3LnxAhWa63MBHWlwCgsQ8gEwMXoECH0QAQ"
+
+4 - Arunachal Pradesh "https://www.google.com/maps/place/Arunachal+Pradesh/@27.9436924,89.9848317,6z/data=!3m1!4b1!4m5!3m4!1s0x374043466a1c7227:0x76b56e552f9a92f2!8m2!3d28.2179994!4d94.7277528"
+
+5 - Assam "https://www.google.com/maps/place/Assam/data=!4m2!3m1!1s0x374516c94c312d63:0xd11a73bb736719fb?sa=X&ved=2ahUKEwir36qD3LnxAhXLhOYKHSZNAtoQ8gEwLXoECGwQAQ"
+
+6 - Bihar "https://www.google.com/maps/place/Bihar/data=!4m2!3m1!1s0x39ed5844f0bb6903:0x57ad3fed1bbae325?sa=X&ved=2ahUKEwiVwtn627nxAhWD8HMBHdFqCgIQ8gEwJ3oECGUQAQ"
+
+7 - Chandigarh "https://www.google.com/maps/place/Chandigarh/data=!4m2!3m1!1s0x390fed0be66ec96b:0xa5ff67f9527319fe?sa=X&ved=2ahUKEwjb4Z3v27nxAhUR7HMBHWC0DWQQ8gEwLnoECHEQAQ"
+
+8 - Chhattisgarh "https://www.google.com/maps/place/Chhattisgarh/@20.935944,80.0757429,7z/data=!3m1!4b1!4m5!3m4!1s0x3a261f16c67a8bad:0x5c23f412fb179d95!8m2!3d21.2786567!4d81.8661442"
+
+9 - Dadra and Nagar Haveli "https://www.google.com/maps/place/Dadra+And+Nagar+Haveli/@20.204403,72.9242974,11z/data=!3m1!4b1!4m5!3m4!1s0x3be7359f60e3a46d:0xd4c6b92819503836!8m2!3d20.1808672!4d73.0169135"
+
+10 - Daman and Diu "https://www.google.com/maps/place/Dadra+and+Nagar+Haveli+and+Daman+and+Diu/@20.3941211,70.9270133,8z/data=!3m1!4b1!4m5!3m4!1s0x3be7348cc7ff7e77:0x224d60bdbf8fd63d!8m2!3d20.2269847!4d73.0169135"
+
+11 - Delhi "https://www.google.com/maps/place/Delhi/data=!4m2!3m1!1s0x390cfd5b347eb62d:0x37205b715389640?sa=X&ved=2ahUKEwii__Sn27nxAhXY4XMBHfrBBxgQ8gEwL3oECG4QAQ"
+
+12 - Goa "https://www.google.com/maps/place/Goa/@15.347038,73.7321127,10z/data=!3m1!4b1!4m5!3m4!1s0x3bbfba106336b741:0xeaf887ff62f34092!8m2!3d15.2993265!4d74.123996"
+
+13 - Gujarat "https://www.google.com/maps/place/Gujarat/data=!4m2!3m1!1s0x3959051f5f0ef795:0x861bd887ed54522e?sa=X&ved=2ahUKEwi2obGS27nxAhV-7HMBHdIgCVAQ8gEwL3oECG4QAQ"
+
+14 - Haryana "https://www.google.com/maps/place/Haryana/data=!4m2!3m1!1s0x390db00b8670400b:0x732eaab4aaa6c143?sa=X&ved=2ahUKEwiHtNKH27nxAhU54XMBHeO7CwEQ8gEwL3oECHIQAQ"
+
+15 - Himachal Pradesh "https://www.google.com/maps/place/Himachal+Pradesh/data=!4m2!3m1!1s0x390453c367f901f7:0x7cfe04c5564b7725?sa=X&ved=2ahUKEwjUpL7l2rnxAhUzzDgGHRAeBNIQ8gEwLXoECGwQAQ"
+
+16 - Jharkhand "https://www.google.com/maps/place/Jharkhand/@23.6347278,83.3915801,7z/data=!3m1!4b1!4m5!3m4!1s0x398b2386df480857:0x62c5b809eee29004!8m2!3d23.6101808!4d85.2799354"
+
+17 - Karnataka "https://www.google.com/maps/place/Karnataka/data=!4m2!3m1!1s0x3ba35a4c37bf488f:0x41f1d28cd1757cd5?sa=X&ved=2ahUKEwiQnLjJ2rnxAhWXxjgGHQCPCWAQ8gEwMXoECHAQAQ"
+
+18 - Kerala "https://www.google.com/maps/place/Kerala/data=!4m2!3m1!1s0x3b0812ffd49cf55b:0x64bd90fbed387c99?sa=X&ved=2ahUKEwjy96On2rnxAhVmxDgGHWNcChwQ8gEwMXoECG4QAQ"
 
 19 - Madhya Pradesh "https://www.google.com/maps/place/Madhya+Pradesh/@23.9085453,73.9278374,6z/data=!3m1!4b1!4m5!3m4!1s0x39667381d35aea05:0xe0106b0d4e701c1e!8m2!3d22.9734229!4d78.6568942"
 
-20 - Maharashtra
-21 - Manipur
-22 - Meghalaya
-23 - Mizoram
-24 - Nagaland
-25 - Orissa
-26 - Puducherry
-27 - Punjab
-28 - Rajasthan
-29 - Sikkim
-30 - Tamil Nadu
-31 - Tripura
-32 - Uttar Pradesh
-33 - Uttaranchal
+20 - Maharashtra "https://www.google.com/maps/place/Maharashtra/data=!4m2!3m1!1s0x3bcfc41e9c9cd6f9:0x1b2f22924be04fb6?sa=X&ved=2ahUKEwjktcXP3LnxAhX0ILcAHUuQAucQ8gEwMHoECH0QAQ"
+
+21 - Manipur "https://www.google.com/maps/place/Manipur/data=!4m2!3m1!1s0x3749265bf16390db:0x8cc1691ae0a829af?sa=X&ved=2ahUKEwi--PXa3LnxAhU57HMBHSUtD04Q8gEwLXoECGkQAQ"
+
+22 - Meghalaya "https://www.google.com/maps/place/Meghalaya/data=!4m2!3m1!1s0x37507e8f34bd207f:0xf5ef6117f496d6e?sa=X&ved=2ahUKEwiEyLLo3LnxAhWi_XMBHXCzBAsQ8gEwL3oECGkQAQ"
+
+23 - Mizoram "https://www.google.com/maps/place/Mizoram/data=!4m2!3m1!1s0x374d0bd19f3f36f7:0xb1f62692a3d5e474?sa=X&ved=2ahUKEwjm6ojx3LnxAhUlmuYKHV9VC1MQ8gEwLnoECGgQAQ"
+
+24 - Nagaland "https://www.google.com/maps/place/Nagaland/data=!4m2!3m1!1s0x3746210934c63d31:0x1f2df33a89cc3efd?sa=X&ved=2ahUKEwi8nP763LnxAhXA7nMBHQisDYEQ8gEwNXoECGoQAQ"
+
+25 - Orissa "https://www.google.com/maps/place/Odisha/data=!4m2!3m1!1s0x3a226aece9af3bfd:0x133625caa9cea81f?sa=X&ved=2ahUKEwjkm6yD3bnxAhXjjuYKHVkVA6wQ8gEwJnoECFcQAQ"
+
+26 - Puducherry "https://www.google.com/maps/place/Puducherry/@12.3539805,77.3249735,6.52z/data=!4m5!3m4!1s0x3a536044e5c44795:0xe810cbb20a3d49d3!8m2!3d11.9415524!4d79.8082865"
+
+27 - Punjab "https://www.google.com/maps/place/Punjab/data=!4m2!3m1!1s0x391964aa569e7355:0x8fbd263103a38861?sa=X&ved=2ahUKEwj4p9eY3bnxAhXFmuYKHWtwBm0Q8gEwMHoECHAQAQ"
+
+28 - Rajasthan "https://www.google.com/maps/place/Rajasthan/@26.5601012,69.3794955,6z/data=!3m1!4b1!4m5!3m4!1s0x396a3efaf7e30e37:0xb52b9b4506c088e5!8m2!3d27.0238036!4d74.2179326"
+
+29 - Sikkim "https://www.google.com/maps/place/Sikkim/data=!4m2!3m1!1s0x39e6a56a5805eafb:0xa4c4b857c39b5a04?sa=X&ved=2ahUKEwi40v2q3bnxAhX7IbcAHfO7CHcQ8gEwLHoECF4QAQ"
+
+30 - Tamil Nadu "https://www.google.com/maps/place/Tamil+Nadu/data=!4m2!3m1!1s0x3b00c582b1189633:0x559475cc463361f0?sa=X&ved=2ahUKEwir--6y3bnxAhUSXnwKHYIvApAQ8gEwMHoECG8QAQ"
+
+31 - Tripura "https://www.google.com/maps/place/Tripura/data=!4m2!3m1!1s0x3753b566f6c1a285:0x14dd7ae7453fff74?sa=X&ved=2ahUKEwjCq-W73bnxAhWE6XMBHdZRBpwQ8gEwL3oECGsQAQ"
+
+32 - Uttar Pradesh "https://www.google.com/maps/place/Uttar+Pradesh/@27.0696732,76.3891259,6z/data=!3m1!4b1!4m5!3m4!1s0x39994e9f7b4a09d3:0xf6a5476d3617249d!8m2!3d26.8467088!4d80.9461592"
+
+33 - Uttaranchal "https://www.google.com/maps/place/Uttarakhand/data=!4m2!3m1!1s0x3909dcc202279c09:0x7c43b63689cc005?sa=X&ved=2ahUKEwjlzO_M3bnxAhXT7HMBHRz0AKQQ8gEwG3oECEUQAQ"
 
 34 - West Bengal "https://www.google.com/maps/place/West+Bengal/@24.3562949,85.6064308,7z/data=!3m1!4b1!4m5!3m4!1s0x39fa16ff1397e887:0x71543a3dc3e7a20a!8m2!3d22.9867569!4d87.8549755"
 
-35 - Lakshadweep
-36 - Jammu and Kashmir
-37 - Ladakh
+35 - Lakshadweep "https://www.google.com/maps/place/Lakshadweep/@10.3202731,70.540121,7z/data=!3m1!4b1!4m5!3m4!1s0x3b9fcd65cae4973d:0x17bd7416842ce9aa!8m2!3d10.3280265!4d72.7846336"
+
+36 - Jammu and Kashmir "https://www.google.com/maps/place/Jammu+and+Kashmir/@33.4997037,73.0179448,7z/data=!3m1!4b1!4m5!3m4!1s0x38e1092499ffa89d:0x6567a6d4697e7f1!8m2!3d33.277839!4d75.3412179"
+
+37 - Ladakh "https://www.google.com/maps/place/Ladakh/data=!4m2!3m1!1s0x38fd86bce37d7139:0xc6c2990fdad28ac7?sa=X&ved=2ahUKEwiBydXr3bnxAhUq63MBHUKeDRgQ8gEwMXoECG4QAQ"
