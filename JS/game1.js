@@ -148,7 +148,8 @@ nextButton.addEventListener('click', next); //allows you to skip questions
 for (let i = 0; i <= 3; i++) {
     options[i].addEventListener('click', function (el) {
         let CLICKED = true;
-        let ans = el.path[0].innerText;
+        let ans = el.target.innerText;
+        // console.dir(el.target.innerText)
         let correctAns = questions[QUESTION_COUNTER - 1].answer.toString();
         let max = total(SCORE);
         
@@ -176,7 +177,7 @@ for (let i = 0; i <= 3; i++) {
             for (let m = 0; m <= 3; m++){
                 options[i].style.backgroundColor = "#9ea2a6";
             }
-            el.path[0].style.backgroundColor = "green";
+            el.target.style.backgroundColor = "green";
         }
         else
         {
@@ -190,7 +191,7 @@ for (let i = 0; i <= 3; i++) {
             for (let n = 0; n <= 3; n++) {
                 options[i].style.backgroundColor = "#9ea2a6";
             }
-            el.path[0].style.backgroundColor = "red";
+            el.target.style.backgroundColor = "red";
         }
 
         if (CLICKED == true) {
